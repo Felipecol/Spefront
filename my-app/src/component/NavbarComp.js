@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from "react-bootstrap";
+import './NavbarComp.css';
 import {
     BrowserRouter as Router,
     Switch,
@@ -14,12 +15,21 @@ import TrucksComp from "./TrucksComp";
 
 
 class navbar extends Component {
+
     render() {
         return (
             <Router>
                 <div>
-                    <Navbar bg="dark" variant={"dark"} expand="lg">
-                        <Navbar.Brand href="#">SkateShop</Navbar.Brand>
+
+                    <Navbar bg="light" variant={"light"} expand="lg">
+                        <Navbar.Brand className="skaterfou" href="#" styles="padding: 5px">
+                            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_HrNNmm.json"  background="rgba(0, 0, 0, 0)"  speed="1"  styles="width: 5px; height: 5px;"  loop  autoplay></lottie-player>
+                        </Navbar.Brand>
+                        <Navbar.Brand>
+                            <b>skateshop</b>
+                        </Navbar.Brand>
+
+
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
                             <Nav
