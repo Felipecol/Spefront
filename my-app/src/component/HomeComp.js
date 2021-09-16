@@ -29,7 +29,7 @@ class HomeComp extends Component {
                         />
 
                         <Carousel.Caption>
-                            <h3>Second slide label</h3>
+                            <h3><b>&#123;s&#x7D;katalog</b></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -41,7 +41,7 @@ class HomeComp extends Component {
                         />
 
                         <Carousel.Caption>
-                            <h3>Third slide label</h3>
+                            <h3><b>&#123;s&#x7D;katalog</b></h3>
                             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                         </Carousel.Caption>
                     </Carousel.Item>

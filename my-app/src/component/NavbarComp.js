@@ -23,7 +23,7 @@ class navbar extends Component {
             <Router>
 
                 <div>
-                    <Navbar bg="light" variant={"light"} expand="lg" >
+                    <Navbar bg="" variant={"light"} expand="lg" >
                         <Animated className="skateranim" animationIn="bounceInLeft"  isVisible={true}>
                                 <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_HrNNmm.json"  background="rgba(0, 0, 0, 0)"  speed="1"  styles="width: 5px; height: 5px;"  loop  autoplay></lottie-player>
                         </Animated>
@@ -73,7 +73,9 @@ class navbar extends Component {
 
                     </Switch>
                 </div>
+
             </Router>
+
         );
     }
 }
