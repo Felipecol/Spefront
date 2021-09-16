@@ -13,7 +13,7 @@ class FooterComp extends Component {
                         </div>
                         <b>
                         &copy; {new Date().getFullYear()}{' '}
-                        <a className='text-dark' href='https://mdbootstrap.com/'>
+                        <a className='text-dark' href='#'>
                            &#123;s&#x7D;katalog
                         </a>
                         </b>
