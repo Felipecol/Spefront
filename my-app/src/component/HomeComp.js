@@ -103,6 +103,8 @@ class HomeComp extends Component {
                         </Col>
                     </Row>
                     <hr/>
+                    {/*---------------------------------------- EVENt + CARD  -----------------------------------------*/}
+
                     <Row>
                     <Col>
                             <Card.Body data-aos="zoom-in" data-aos-delay='420'>
