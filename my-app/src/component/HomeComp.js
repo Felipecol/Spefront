@@ -4,9 +4,9 @@ import skater5 from '../assets/skater5.jpeg';
 import skater8 from '../assets/skater8.jpeg';
 import skater3 from '../assets/skater3.png';
 import './HomeCom.css';
+import {Card, Col, Row} from "react-bootstrap";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import {Card, Col, Row} from "react-bootstrap";
 AOS.init();
 
 class HomeComp extends Component {
