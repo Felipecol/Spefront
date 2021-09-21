@@ -33,7 +33,7 @@
 #root > div > div:nth-child(2) > div > div > div:nth-child(2) > div > div{
     padding: 0.5rem;
 }
-#root > div > div:nth-child(2) > div > div > div:nth-child(1) > div > div{
+#root > div > div:nth-child(2) > div > div > div:nth-child(1) > div > div > div{
     padding: 0.5rem;
 }
 
@@ -63,5 +63,11 @@
 }
 #root > div > div:nth-child(2) > div > div > div:nth-child(1) > div > img{
     padding-top: 0.8rem;
+}
+
+.skateranim:hover {
+
+    animation: bounce 1s;
+
 }
 
