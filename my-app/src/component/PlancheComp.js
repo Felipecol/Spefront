@@ -27,7 +27,7 @@ class PlancheComp extends Component {
                             <Card data-aos='fade-up' data-aos-delay='220'>
                                 <Card.Img variant="top" src={skateboard1} />
                                 <Card.Body>
-                                    <Card.Title>Board Nomad</Card.Title>
+                                    <Card.Title>TROPIKALI - PALMS DECK</Card.Title>
                                 </Card.Body>
                             </Card>
                         </Animated>
@@ -37,7 +37,7 @@ class PlancheComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard2} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>TARGET DECK</Card.Title>
                             </Card.Body>
                         </Card>
                         </Animated>
@@ -47,7 +47,7 @@ class PlancheComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard3} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>PARTY DECK</Card.Title>
                             </Card.Body>
                         </Card>
                         </Animated>
@@ -57,7 +57,7 @@ class PlancheComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard4} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>VISASTER DECK</Card.Title>
                             </Card.Body>
                         </Card>
                         </Animated>
@@ -67,7 +67,7 @@ class PlancheComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard5} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>RUN FOR YOUR LIFE DECK</Card.Title>
                             </Card.Body>
                         </Card>
                         </Animated>
@@ -77,7 +77,7 @@ class PlancheComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard6} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>OG LOGO WHITE DECK - DLIGH</Card.Title>
                             </Card.Body>
                         </Card>
                         </Animated>
@@ -87,7 +87,7 @@ class PlancheComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard7} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>TYPO - GOLDEN DECK</Card.Title>
                             </Card.Body>
                         </Card>
                         </Animated>
@@ -97,7 +97,7 @@ class PlancheComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard8} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>BUBBLE HEAD DECK</Card.Title>
                             </Card.Body>
                         </Card>
                         </Animated>
@@ -107,7 +107,7 @@ class PlancheComp extends Component {
                             <Card data-aos='fade-up' data-aos-delay='220'>
                                 <Card.Img variant="top" src={skateboard9} />
                                 <Card.Body>
-                                    <Card.Title>Board Nomad</Card.Title>
+                                    <Card.Title>HANDMADE DECK</Card.Title>
                                 </Card.Body>
                             </Card>
                         </Animated>

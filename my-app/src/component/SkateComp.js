@@ -25,7 +25,7 @@ class SkateComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skatecomplet1} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>CAT & DOG BLUE</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -33,7 +33,7 @@ class SkateComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skatecomplet2} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>THE CAPTAIN PINK</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -41,7 +41,7 @@ class SkateComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skatecomplet3} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>PANDA STRIPES RESIN</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -49,7 +49,7 @@ class SkateComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skatecomplet4} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>TIMEWORKS GREEN TIE DYE</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -57,7 +57,7 @@ class SkateComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skatecomplet5} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>DICEY FOIL</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -65,7 +65,7 @@ class SkateComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skatecomplet6} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>FURRY MONSTER</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -73,7 +73,7 @@ class SkateComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skatecomplet7} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>VICE MONSTER</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -81,7 +81,7 @@ class SkateComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skatecomplet8} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>MISFIT PANDA BLACK</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -89,7 +89,7 @@ class SkateComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skatecomplet9} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>SCREAMING HAND</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>

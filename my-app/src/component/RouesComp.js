@@ -22,7 +22,7 @@ class RouesComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={roues1} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>FORM WHEELS 53 MM RASTA</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -30,7 +30,7 @@ class RouesComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={roues2} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>FORM WHEELS 53 MM BLUE BLACK</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -38,7 +38,7 @@ class RouesComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={roues3} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>FORM WHEELS 53 MM BLACK WHITE</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -46,7 +46,7 @@ class RouesComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={roues4} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>FORM WHEELS 53 MM</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -54,7 +54,7 @@ class RouesComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={roues5} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>SPITFIRE WHEELS 53MM</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -62,7 +62,7 @@ class RouesComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={roues6} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>SPITFIRE WHEELS 53MM</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>

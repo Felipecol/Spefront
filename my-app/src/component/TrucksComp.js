@@ -24,7 +24,7 @@ class TrucksComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={trucks1} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>NORA TRIANGLE</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -32,7 +32,7 @@ class TrucksComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={trucks2} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>MAG LIGHT LO SLICKS MULLEN</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -40,7 +40,7 @@ class TrucksComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={trucks3} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>SILVAS OMNI POLISHED BLACK</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -48,7 +48,7 @@ class TrucksComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={trucks4} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>PRO MASON SILVA BLK SILVER</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -56,7 +56,7 @@ class TrucksComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={trucks5} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>FULL BLEED EDITION</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -64,7 +64,7 @@ class TrucksComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={trucks6} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>TEAM HOLLOW RAW</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -72,7 +72,7 @@ class TrucksComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={trucks7} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>MAG LIGHT SLICKS DAEWON SONG</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -80,7 +80,7 @@ class TrucksComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={trucks8} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>MAG LIGHT REFLECT SILVER RED</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -88,7 +88,7 @@ class TrucksComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={trucks9} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>ALUM STENC MIR RAW LT BLUE FADE</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
