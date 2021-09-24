@@ -41,9 +41,9 @@ class navbar extends Component {
                                 navbarScroll
                             >
                                 <Nav.Link as={Link} to={"/HomeComp"}>Home</Nav.Link>
+                                <Nav.Link as={Link} to={"/ProtectionComp"}>Favoris</Nav.Link>
                                 <Nav.Link as={Link} to={"/PlancheComp"}>Planche de skate</Nav.Link>
                                 <Nav.Link as={Link} to={"/RouesComp"}>Roues</Nav.Link>
-                                <Nav.Link as={Link} to={"/ProtectionComp"}>Protections</Nav.Link>
                                 <Nav.Link as={Link} to={"/SkateComp"}>Skateboard complet</Nav.Link>
                                 <Nav.Link as={Link} to={"/TrucksComp"}>Trucks</Nav.Link>
                             </Nav>

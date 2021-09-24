@@ -1,6 +1,11 @@
 import React, {Component} from 'react';
 import {Card, Col, Row} from "react-bootstrap";
-import skateboard1 from "../assets/skateboard1.jpeg";
+import roues1 from "../assets/roues1.jpeg";
+import roues2 from "../assets/roues2.jpeg";
+import roues3 from "../assets/roues3.jpeg";
+import roues4 from "../assets/roues4.jpeg";
+import roues5 from "../assets/roues5.jpeg";
+import roues6 from "../assets/roues6.jpeg";
 import './RouesComp.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -15,77 +20,52 @@ class RouesComp extends Component {
                 <Row xs={1} md={3} className="g-4" >
                     <Col>
                         <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skateboard1} />
+                            <Card.Img variant="top" src={roues1} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>FORM WHEELS 53 MM RASTA</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
                         <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skateboard1} />
+                            <Card.Img variant="top" src={roues2} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>FORM WHEELS 53 MM BLUE BLACK</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
                         <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skateboard1} />
+                            <Card.Img variant="top" src={roues3} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>FORM WHEELS 53 MM BLACK WHITE</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
                         <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skateboard1} />
+                            <Card.Img variant="top" src={roues4} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>FORM WHEELS 53 MM</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
                         <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skateboard1} />
+                            <Card.Img variant="top" src={roues5} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>SPITFIRE WHEELS 53MM</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col>
                         <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skateboard1} />
+                            <Card.Img variant="top" src={roues6} />
                             <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
+                                <Card.Title>SPITFIRE WHEELS 53MM</Card.Title>
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skateboard1} />
-                            <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skateboard1} />
-                            <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skateboard1} />
-                            <Card.Body>
-                                <Card.Title>Board Nomad</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-
                 </Row>
                 <hr/>
 
