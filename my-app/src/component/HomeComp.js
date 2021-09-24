@@ -3,6 +3,11 @@ import Carousel from 'react-bootstrap/Carousel';
 import skater5 from '../assets/skater5.jpeg';
 import skater8 from '../assets/skater8.jpeg';
 import skater3 from '../assets/skater3.png';
+import trasher from '../assets/trasher1.jpeg';
+import vans from '../assets/vans2.jpeg';
+import volcom from '../assets/volcolm1.jpeg';
+import supreme from '../assets/supreme2.jpeg';
+import skateevent from '../assets/skateevent.webp';
 import './HomeCom.css';
 import {Card, Col, Row} from "react-bootstrap";
 import AOS from 'aos';
@@ -22,7 +27,7 @@ class HomeComp extends Component {
                             alt="First slide"
                         />
                         <Carousel.Caption >
-                            <h3><b>&#123;s&#x7D;katalog</b></h3>
+                            <h1><b>&#123;s&#x7D;katalog</b></h1>
                             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -34,7 +39,7 @@ class HomeComp extends Component {
 
                         />
                         <Carousel.Caption>
-                            <h3><b>&#123;s&#x7D;katalog</b></h3>
+                            <h1><b>&#123;s&#x7D;katalog</b></h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -45,7 +50,7 @@ class HomeComp extends Component {
                             alt="Third slide"
                         />
                         <Carousel.Caption>
-                            <h3><b>&#123;s&#x7D;katalog</b></h3>
+                            <h1><b>&#123;s&#x7D;katalog</b></h1>
                             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -55,9 +60,9 @@ class HomeComp extends Component {
                     <Row xs={1} md={2} className="g-4" >
                         <Col>
                             <Card data-aos='fade-up' data-aos-delay='220'>
-                                <Card.Img variant="top" src={skater3} />
+                                <Card.Img variant="top" src={trasher} />
                                     <Card.Body>
-                                        <Card.Title>&#123;s&#x7D;katalog</Card.Title>
+                                        <Card.Title>Trasher</Card.Title>
                                             <Card.Text>
                                             This is a longer card with supporting text below as a natural
                                             lead-in to additional content. This content is a little bit longer.
@@ -67,9 +72,9 @@ class HomeComp extends Component {
                         </Col>
                         <Col>
                             <Card data-aos='fade-up' data-aos-delay='220'>
-                                <Card.Img variant="top" src={skater3} />
+                                <Card.Img variant="top" src={vans} />
                                 <Card.Body>
-                                    <Card.Title>&#123;s&#x7D;katalog</Card.Title>
+                                    <Card.Title>Vans</Card.Title>
                                     <Card.Text>
                                         This is a longer card with supporting text below as a natural
                                         lead-in to additional content. This content is a little bit longer.
@@ -79,9 +84,9 @@ class HomeComp extends Component {
                         </Col>
                         <Col>
                             <Card data-aos='fade-up' data-aos-delay='220'>
-                                <Card.Img variant="top" src={skater3} />
+                                <Card.Img variant="top" src={volcom} />
                                 <Card.Body>
-                                    <Card.Title>&#123;s&#x7D;katalog</Card.Title>
+                                    <Card.Title>Volcom</Card.Title>
                                     <Card.Text>
                                         This is a longer card with supporting text below as a natural
                                         lead-in to additional content. This content is a little bit longer.
@@ -91,9 +96,9 @@ class HomeComp extends Component {
                         </Col>
                         <Col>
                             <Card data-aos='fade-up' data-aos-delay='220'>
-                                <Card.Img variant="top" src={skater3} />
+                                <Card.Img variant="top" src={supreme} />
                                 <Card.Body>
-                                    <Card.Title>&#123;s&#x7D;katalog</Card.Title>
+                                    <Card.Title>Supreme</Card.Title>
                                     <Card.Text>
                                         This is a longer card with supporting text below as a natural
                                         lead-in to additional content. This content is a little bit longer.
@@ -108,7 +113,7 @@ class HomeComp extends Component {
                     <Row>
                     <Col>
                             <Card.Body data-aos="zoom-in" data-aos-delay='420'>
-                                <Card.Title>&#123;s&#x7D;katalog EVENT</Card.Title>
+                                <Card.Title>VANS PARK SERIES</Card.Title>
                                 <Card.Text>
                                     This is a longer card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.
@@ -117,14 +122,8 @@ class HomeComp extends Component {
                     </Col>
                         <Col>
                             <Card data-aos='fade-up' data-aos-delay='220'>
-                                <Card.Img variant="top" src={skater3} />
-                                <Card.Body>
-                                    <Card.Title>&#123;s&#x7D;katalog</Card.Title>
-                                    <Card.Text>
-                                        This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.
-                                    </Card.Text>
-                                </Card.Body>
+                                <Card.Img variant="top" src={skateevent} />
+
                             </Card>
                         </Col>
                     </Row>
