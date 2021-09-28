@@ -8,3 +8,13 @@
     align-items: center;
     justify-content: center;
 }
+
+
+
+
+@media screen and (max-width: 640px) {
+    #root > div > div:nth-child(3) > footer > div{
+    margin-bottom: 1em;
+
+    }
+}
