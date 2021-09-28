@@ -23,11 +23,12 @@ class PlancheComp extends Component {
                 <h2 className="tittre">Planches de skate</h2>
                 <Row xs={1} md={3} className="g-4" >
                     <Col>
+
                         <Animated className="">
                             <Card data-aos='fade-up' data-aos-delay='220'>
                                 <Card.Img variant="top" src={skateboard1} />
                                 <Card.Body>
-                                    <Card.Title>TROPIKALI - PALMS DECK</Card.Title>
+                                    <Card.Title>PALMS DECK</Card.Title>
                                 </Card.Body>
                             </Card>
                         </Animated>
@@ -77,7 +78,7 @@ class PlancheComp extends Component {
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard6} />
                             <Card.Body>
-                                <Card.Title>OG LOGO WHITE DECK - DLIGH</Card.Title>
+                                <Card.Title>OG LOGO WHITE DECK</Card.Title>
                             </Card.Body>
                         </Card>
                         </Animated>
