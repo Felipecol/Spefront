@@ -28,7 +28,7 @@ class HomeComp extends Component {
                         />
                         <Carousel.Caption >
                             <h1><b>&#123;s&#x7D;katalog</b></h1>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <p><b>&#123;s&#x7D;katalog votre catalogue de skate en ligne</b></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -40,7 +40,7 @@ class HomeComp extends Component {
                         />
                         <Carousel.Caption>
                             <h1><b>&#123;s&#x7D;katalog</b></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p><b>&#123;s&#x7D;katalog votre catalogue de skate en ligne</b></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -51,12 +51,14 @@ class HomeComp extends Component {
                         />
                         <Carousel.Caption>
                             <h1><b>&#123;s&#x7D;katalog</b></h1>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <p><b>&#123;s&#x7D;katalog votre catalogue de skate en ligne</b></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
                 {/*---------------------------------------- 4 CARDS -----------------------------------------*/}
+                <hr/>
                 <div className="container" >
+                    <h2>Marques iconiques</h2>
                     <Row xs={1} md={2} className="g-4" >
                         <Col>
                             <Card data-aos='fade-up' data-aos-delay='220'>
@@ -64,8 +66,7 @@ class HomeComp extends Component {
                                     <Card.Body>
                                         <Card.Title>Trasher</Card.Title>
                                             <Card.Text>
-                                            This is a longer card with supporting text below as a natural
-                                            lead-in to additional content. This content is a little bit longer.
+                                                Les vêtements Thrasher avec des slogans comme "Skate And Destroy" et le logo emblématique Skate Goat sont un incontournable pour tous les skateurs.
                                             </Card.Text>
                                     </Card.Body>
                             </Card>
@@ -76,8 +77,7 @@ class HomeComp extends Component {
                                 <Card.Body>
                                     <Card.Title>Vans</Card.Title>
                                     <Card.Text>
-                                        This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.
+                                        Vans est synonyme de chaussures de skate et ce depuis 1966. La marque californienne a cimenté sa place dans le skate avec ses semelles gaufrées et est là pour rester.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -88,8 +88,7 @@ class HomeComp extends Component {
                                 <Card.Body>
                                     <Card.Title>Volcom</Card.Title>
                                     <Card.Text>
-                                        This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.
+                                        Avec le streetwear de Volcom, vous êtes parfaitement équipé pour chaque session de skate. La marque avec le logo "Volcom Stone" se concentre sur des designs créatifs depuis plus de 20 ans.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -100,8 +99,7 @@ class HomeComp extends Component {
                                 <Card.Body>
                                     <Card.Title>Supreme</Card.Title>
                                     <Card.Text>
-                                        This is a longer card with supporting text below as a natural
-                                        lead-in to additional content. This content is a little bit longer.
+                                        Supreme est une marque de vêtements streetwear et accessoires de mode fondée à New York en 1994 par James Jebbia. Le personnel et les clients du magasin étaient principalement constitués de jeunes skateurs.
                                     </Card.Text>
                                 </Card.Body>
                             </Card>
@@ -109,14 +107,13 @@ class HomeComp extends Component {
                     </Row>
                     <hr/>
                     {/*---------------------------------------- EVENt + CARD  -----------------------------------------*/}
-
-                    <Row>
+                    <h2>Événement récent</h2>
+                    <Row className="eventpage" >
                     <Col>
                             <Card.Body data-aos="zoom-in" data-aos-delay='420'>
                                 <Card.Title>VANS PARK SERIES</Card.Title>
                                 <Card.Text>
-                                    This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.
+                                    Comme l'an dernier, les Vans Park Series 2022 se dérouleront à Chelles, près de Paris. Cette étape française, qui s'inscrit dans la phase de qualifications internationales, aura lieu les 19 et 20 juin.
                                 </Card.Text>
                             </Card.Body>
                     </Col>

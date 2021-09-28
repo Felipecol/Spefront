@@ -23,7 +23,7 @@ class PlancheComp extends Component {
                 <h2 className="tittre">Planches de skate</h2>
                 <Row xs={1} md={3} className="g-4" >
                     <Col>
-                        <Animated className="skateranim">
+                        <Animated className="">
                             <Card data-aos='fade-up' data-aos-delay='220'>
                                 <Card.Img variant="top" src={skateboard1} />
                                 <Card.Body>
@@ -33,7 +33,7 @@ class PlancheComp extends Component {
                         </Animated>
                     </Col>
                     <Col>
-                        <Animated className="skateranim">
+                        <Animated className="">
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard2} />
                             <Card.Body>
@@ -43,7 +43,7 @@ class PlancheComp extends Component {
                         </Animated>
                     </Col>
                     <Col>
-                        <Animated className="skateranim">
+                        <Animated className="">
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard3} />
                             <Card.Body>
@@ -53,7 +53,7 @@ class PlancheComp extends Component {
                         </Animated>
                     </Col>
                     <Col>
-                        <Animated className="skateranim">
+                        <Animated className="">
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard4} />
                             <Card.Body>
@@ -63,7 +63,7 @@ class PlancheComp extends Component {
                         </Animated>
                     </Col>
                     <Col>
-                        <Animated className="skateranim">
+                        <Animated className="">
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard5} />
                             <Card.Body>
@@ -73,7 +73,7 @@ class PlancheComp extends Component {
                         </Animated>
                     </Col>
                     <Col>
-                        <Animated className="skateranim">
+                        <Animated className="">
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard6} />
                             <Card.Body>
@@ -83,7 +83,7 @@ class PlancheComp extends Component {
                         </Animated>
                     </Col>
                     <Col>
-                        <Animated className="skateranim">
+                        <Animated className="">
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard7} />
                             <Card.Body>
@@ -93,7 +93,7 @@ class PlancheComp extends Component {
                         </Animated>
                     </Col>
                     <Col>
-                        <Animated className="skateranim">
+                        <Animated className="">
                         <Card data-aos='fade-up' data-aos-delay='220'>
                             <Card.Img variant="top" src={skateboard8} />
                             <Card.Body>
@@ -103,7 +103,7 @@ class PlancheComp extends Component {
                         </Animated>
                     </Col>
                     <Col>
-                        <Animated className="skateranim">
+                        <Animated className="">
                             <Card data-aos='fade-up' data-aos-delay='220'>
                                 <Card.Img variant="top" src={skateboard9} />
                                 <Card.Body>

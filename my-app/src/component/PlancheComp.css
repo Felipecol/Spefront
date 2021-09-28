@@ -1,3 +1,13 @@
 #root > div > div:nth-child(2) > div > div > div:nth-child(1) > div > div > div > div{
     padding: 1rem 1rem;
 }
+.skateranim{
+    margin:0 !important;
+    padding: 0 15px 0 15px;
+}
+
+.skateranim:hover {
+
+    animation: bounce 5s;
+
+}
