@@ -4,6 +4,7 @@ import skateboard1 from "../assets/skateboard1.jpeg";
 import './ProtectionComp.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Button from 'react-bootstrap/Button'
 AOS.init();
 
 class ProtectionCompProtectionComp extends Component {
@@ -19,8 +20,14 @@ class ProtectionCompProtectionComp extends Component {
                                 <Card.Title>PALMS DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3>PALMS DECK</h3>
-                                <p>Deck size : 8.125</p>
+                                <h3 className="backtitle">PALMS DECK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skateboard1} />
                             </div>
                         </div>
                     </div>
@@ -31,7 +38,14 @@ class ProtectionCompProtectionComp extends Component {
                             <Card.Title>PALMS DECK</Card.Title>
                         </div>
                         <div className="flip-card-back">
-                            <h3>test</h3>
+                            <h3 className="backtitle">PALMS DECK</h3>
+                            <p>Taille : 8.25"</p>
+                            <p>Hauteur(cm) : 8.125</p>
+                            <p>Largeur(cm) : 8.125</p>
+                            <p>Poids(kg) : 8.125</p>
+                            <p>Prix : 54,95 €</p>
+                            <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                            <Card.Img className="backimg" variant="top" src={skateboard1} />
                         </div>
                     </div>
                 </div>
@@ -42,7 +56,14 @@ class ProtectionCompProtectionComp extends Component {
                             <Card.Title>PALMS DECK</Card.Title>
                         </div>
                         <div className="flip-card-back">
-                            <h3>test</h3>
+                            <h3 className="backtitle">PALMS DECK</h3>
+                            <p>Taille : 8.25"</p>
+                            <p>Hauteur(cm) : 8.125</p>
+                            <p>Largeur(cm) : 8.125</p>
+                            <p>Poids(kg) : 8.125</p>
+                            <p>Prix : 54,95 €</p>
+                            <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                            <Card.Img className="backimg" variant="top" src={skateboard1} />
                         </div>
                     </div>
                 </div>
@@ -56,7 +77,14 @@ class ProtectionCompProtectionComp extends Component {
                                 <Card.Title>PALMS DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3>test</h3>
+                                <h3 className="backtitle">PALMS DECK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skateboard1} />
                             </div>
                         </div>
                     </div>
@@ -67,7 +95,14 @@ class ProtectionCompProtectionComp extends Component {
                                 <Card.Title>PALMS DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3>test</h3>
+                                <h3 className="backtitle">PALMS DECK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skateboard1} />
                             </div>
                         </div>
                     </div>
@@ -78,7 +113,14 @@ class ProtectionCompProtectionComp extends Component {
                                 <Card.Title>PALMS DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3>test</h3>
+                                <h3 className="backtitle">PALMS DECK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skateboard1} />
                             </div>
                         </div>
                     </div>
@@ -91,7 +133,14 @@ class ProtectionCompProtectionComp extends Component {
                                 <Card.Title>PALMS DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3>test</h3>
+                                <h3 className="backtitle">PALMS DECK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skateboard1} />
                             </div>
                         </div>
                     </div>
@@ -102,7 +151,14 @@ class ProtectionCompProtectionComp extends Component {
                                 <Card.Title>PALMS DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3>test</h3>
+                                <h3 className="backtitle">PALMS DECK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skateboard1} />
                             </div>
                         </div>
                     </div>
@@ -113,7 +169,14 @@ class ProtectionCompProtectionComp extends Component {
                                 <Card.Title>PALMS DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3>test</h3>
+                                <h3 className="backtitle">PALMS DECK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skateboard1} />
                             </div>
                         </div>
                     </div>
