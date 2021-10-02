@@ -6,6 +6,9 @@
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     margin: 0px 10px;
     border-radius: 10px;
+    background: #ffffff;
+    box-shadow:  9px 9px 15px #c7c7c7,
+    -9px -9px 15px #ffffff;
 }
 
 /* This container is needed to position the front and back side */
