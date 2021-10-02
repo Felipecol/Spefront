@@ -1,0 +1,20 @@
+.skaterfou{
+    width: 4em;
+    position: center;
+    padding: 0 10px 0 0 ;
+}
+.footes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    #root > div > div:nth-child(3) > footer > div{
+    margin-bottom: 1em;
+
+    }
+}

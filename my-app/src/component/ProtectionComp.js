@@ -1,11 +1,187 @@
 import React, {Component} from 'react';
+import {Card, Col, Row} from "react-bootstrap";
+import skateboard1 from "../assets/skateboard1.jpeg";
+import './ProtectionComp.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Button from 'react-bootstrap/Button'
+AOS.init();
 
 class ProtectionCompProtectionComp extends Component {
     render() {
         return (
-            <div>
-                <h1>Protection</h1>
+            <div className="container">
+                <h2 className="tittre">FAV</h2>
+                <div className="troiscard">
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skateboard1} />
+                                <Card.Title>PALMS DECK</Card.Title>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">PALMS DECK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skateboard1} />
+                            </div>
+                        </div>
+                    </div>
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
+                            <Card.Img variant="top" src={skateboard1} />
+                            <Card.Title>PALMS DECK</Card.Title>
+                        </div>
+                        <div className="flip-card-back">
+                            <h3 className="backtitle">PALMS DECK</h3>
+                            <p>Taille : 8.25"</p>
+                            <p>Hauteur(cm) : 8.125</p>
+                            <p>Largeur(cm) : 8.125</p>
+                            <p>Poids(kg) : 8.125</p>
+                            <p>Prix : 54,95 €</p>
+                            <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                            <Card.Img className="backimg" variant="top" src={skateboard1} />
+                        </div>
+                    </div>
+                </div>
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
+                            <Card.Img variant="top" src={skateboard1} />
+                            <Card.Title>PALMS DECK</Card.Title>
+                        </div>
+                        <div className="flip-card-back">
+                            <h3 className="backtitle">PALMS DECK</h3>
+                            <p>Taille : 8.25"</p>
+                            <p>Hauteur(cm) : 8.125</p>
+                            <p>Largeur(cm) : 8.125</p>
+                            <p>Poids(kg) : 8.125</p>
+                            <p>Prix : 54,95 €</p>
+                            <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                            <Card.Img className="backimg" variant="top" src={skateboard1} />
+                        </div>
+                    </div>
+                </div>
+                </div>
 
+                <div className="troiscard">
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skateboard1} />
+                                <Card.Title>PALMS DECK</Card.Title>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">PALMS DECK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skateboard1} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skateboard1} />
+                                <Card.Title>PALMS DECK</Card.Title>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">PALMS DECK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skateboard1} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skateboard1} />
+                                <Card.Title>PALMS DECK</Card.Title>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">PALMS DECK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skateboard1} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="troiscard">
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skateboard1} />
+                                <Card.Title>PALMS DECK</Card.Title>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">PALMS DECK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skateboard1} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skateboard1} />
+                                <Card.Title>PALMS DECK</Card.Title>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">PALMS DECK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skateboard1} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skateboard1} />
+                                <Card.Title>PALMS DECK</Card.Title>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">PALMS DECK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skateboard1} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
             </div>
         );
     }

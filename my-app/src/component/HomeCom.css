@@ -1,0 +1,68 @@
+.container{
+    padding: 0% 5% 0% 5%;
+}
+hr{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+p{
+    font-size: 20px;
+    margin: 0;
+}
+h1{
+    font-size: 70px;
+    font-family: acier-bat-noir, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+h2{
+    font-size: 40px;
+    font-family: acier-bat-noir, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 6%;
+}
+@media screen and (max-width: 640px) {
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 10px;
+        margin: 0;
+    }
+    .eventpage{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .card-title {
+        margin-bottom: 0;
+    }
+}
+#root > div > div:nth-child(1) > nav{
+    z-index: 4;
+}
+#root > div > div:nth-child(2) > div > div.carousel.slide.carousel-fade > div.carousel-inner > div:nth-child(1) > div{
+    padding: 0 0 0 0;
+}
+#root > div > div:nth-child(2) > div > div.carousel.slide.carousel-fade > div.carousel-inner > div:nth-child(3) > div{
+    padding: 0 0 0 0;
+}
+#root > div > div:nth-child(2) > div > div.carousel.slide.carousel-fade > div.carousel-inner > div:nth-child(2) > div{
+    padding: 0 0 0 0;
+}
+#root > div > div:nth-child(1) > nav > button{
+    margin-right: 10px;
+}
+#root > div > div:nth-child(3) > footer > div{
+    margin-bottom: 4em;
+}
+
+#navbarScroll{
+    background-color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+
+
