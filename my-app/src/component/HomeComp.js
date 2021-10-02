@@ -55,7 +55,7 @@ class HomeComp extends Component {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-                {/*---------------------------------------- 4 CARDS -----------------------------------------*/}
+                {/*---------------------------------------- 4 CARDS MARQUE -----------------------------------------*/}
                 <hr/>
                 <div className="container" >
                     <h2>Marques iconiques</h2>

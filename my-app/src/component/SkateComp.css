@@ -37,31 +37,5 @@
     padding: 0.5rem;
 }
 
-#root > div > div:nth-child(2) > div > div > div:nth-child(9) > div > img{
-    padding-top: 0.8rem;
-}
-#root > div > div:nth-child(2) > div > div > div:nth-child(8) > div > img{
-    padding-top: 0.8rem;
-}
-#root > div > div:nth-child(2) > div > div > div:nth-child(7) > div > img{
-    padding-top: 0.8rem;
-}
-#root > div > div:nth-child(2) > div > div > div:nth-child(6) > div > img{
-    padding-top: 0.8rem;
-}
-#root > div > div:nth-child(2) > div > div > div:nth-child(5) > div > img{
-    padding-top: 0.8rem;
-}
-#root > div > div:nth-child(2) > div > div > div:nth-child(4) > div > img{
-    padding-top: 0.8rem;
-}
-#root > div > div:nth-child(2) > div > div > div:nth-child(3) > div > img{
-    padding-top: 0.8rem;
-}
-#root > div > div:nth-child(2) > div > div > div:nth-child(2) > div > img{
-    padding-top: 0.8rem;
-}
-#root > div > div:nth-child(2) > div > div > div:nth-child(1) > div > img{
-    padding-top: 0.8rem;
-}
+
 
