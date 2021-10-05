@@ -21,8 +21,13 @@ class PlancheComp extends Component {
     render() {
         return (
             <div className="container">
-                <h2 className="tittre">Planches de skate</h2>
-                <div className="troiscard">
+                <h1 className="tittre">Planches de skate</h1>
+                <div className="troiscard"
+                     data-aos="fade-up"
+                     data-aos-duration="1000"
+                     data-aos-delay="25"
+                     data-aos-easing="ease-in-out-cubic"
+                >
                     <div className="flip-card">
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
@@ -30,7 +35,7 @@ class PlancheComp extends Component {
                                 <Card.Title>PALMS DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3 className="backtitle">PALMS DECK</h3>
+                                <h2 className="backtitle">PALMS DECK</h2>
                                 <p>Taille : 8.25"</p>
                                 <p>Hauteur(cm) : 8.125</p>
                                 <p>Largeur(cm) : 8.125</p>
@@ -48,7 +53,7 @@ class PlancheComp extends Component {
                                 <Card.Title>TARGET DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3 className="backtitle">TARGET DECK</h3>
+                                <h2 className="backtitle">TARGET DECK</h2>
                                 <p>Taille : 8.25"</p>
                                 <p>Hauteur(cm) : 8.125</p>
                                 <p>Largeur(cm) : 8.125</p>
@@ -66,7 +71,7 @@ class PlancheComp extends Component {
                                 <Card.Title>PARTY DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3 className="backtitle">PARTY DECK</h3>
+                                <h2 className="backtitle">PARTY DECK</h2>
                                 <p>Taille : 8.25"</p>
                                 <p>Hauteur(cm) : 8.125</p>
                                 <p>Largeur(cm) : 8.125</p>
@@ -79,7 +84,12 @@ class PlancheComp extends Component {
                     </div>
                 </div>
 
-                <div className="troiscard">
+                <div className="troiscard"
+                     data-aos="fade-up"
+                     data-aos-duration="1000"
+                     data-aos-delay="25"
+                     data-aos-easing="ease-in-out-cubic"
+                >
                     <div className="flip-card">
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
@@ -87,7 +97,7 @@ class PlancheComp extends Component {
                                 <Card.Title>VISASTER DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3 className="backtitle">VISASTER DECK</h3>
+                                <h2 className="backtitle">VISASTER DECK</h2>
                                 <p>Taille : 8.25"</p>
                                 <p>Hauteur(cm) : 8.125</p>
                                 <p>Largeur(cm) : 8.125</p>
@@ -105,7 +115,7 @@ class PlancheComp extends Component {
                                 <Card.Title>RUN FOR YOUR LIFE DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3 className="backtitle">RUN FOR YOUR LIFE DECK</h3>
+                                <h2 className="backtitle">RUN FOR YOUR LIFE DECK</h2>
                                 <p>Taille : 8.25"</p>
                                 <p>Hauteur(cm) : 8.125</p>
                                 <p>Largeur(cm) : 8.125</p>
@@ -123,7 +133,7 @@ class PlancheComp extends Component {
                                 <Card.Title>OG LOGO DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3 className="backtitle">OG LOGO DECK</h3>
+                                <h2 className="backtitle">OG LOGO DECK</h2>
                                 <p>Taille : 8.25"</p>
                                 <p>Hauteur(cm) : 8.125</p>
                                 <p>Largeur(cm) : 8.125</p>
@@ -135,7 +145,12 @@ class PlancheComp extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="troiscard">
+                <div className="troiscard"
+                     data-aos="fade-up"
+                     data-aos-duration="1000"
+                     data-aos-delay="25"
+                     data-aos-easing="ease-in-out-cubic"
+                >
                     <div className="flip-card">
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
@@ -143,7 +158,7 @@ class PlancheComp extends Component {
                                 <Card.Title>GOLDEN DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3 className="backtitle">GOLDEN DECK</h3>
+                                <h2 className="backtitle">GOLDEN DECK</h2>
                                 <p>Taille : 8.25"</p>
                                 <p>Hauteur(cm) : 8.125</p>
                                 <p>Largeur(cm) : 8.125</p>
@@ -161,7 +176,7 @@ class PlancheComp extends Component {
                                 <Card.Title>BUBBLE HEAD DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3 className="backtitle">BUBBLE HEAD DECK</h3>
+                                <h2 className="backtitle">BUBBLE HEAD DECK</h2>
                                 <p>Taille : 8.25"</p>
                                 <p>Hauteur(cm) : 8.125</p>
                                 <p>Largeur(cm) : 8.125</p>
@@ -179,7 +194,7 @@ class PlancheComp extends Component {
                                 <Card.Title>CROWN DECK</Card.Title>
                             </div>
                             <div className="flip-card-back">
-                                <h3 className="backtitle">CROWN DECK</h3>
+                                <h2 className="backtitle">CROWN DECK</h2>
                                 <p>Taille : 8.25"</p>
                                 <p>Hauteur(cm) : 8.125</p>
                                 <p>Largeur(cm) : 8.125</p>

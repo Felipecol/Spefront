@@ -57,11 +57,16 @@ class HomeComp extends Component {
                 </Carousel>
                 {/*---------------------------------------- 4 CARDS MARQUE -----------------------------------------*/}
                 <hr/>
-                <div className="" >
+                <div>
                     <h2>Marques iconiques</h2>
                     <Row xs={1} md={2} className="g-4" >
-                        <Col>
-                            <Card data-aos='fade-up' data-aos-delay='220'>
+                        <Col
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay="25"
+                            data-aos-easing="ease-in-out-cubic"
+                        >
+                            <Card>
                                 <Card.Img variant="top" src={trasher} />
                                     <Card.Body>
                                         <Card.Title>Trasher</Card.Title>
@@ -71,8 +76,13 @@ class HomeComp extends Component {
                                     </Card.Body>
                             </Card>
                         </Col>
-                        <Col>
-                            <Card data-aos='fade-up' data-aos-delay='220'>
+                        <Col
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay="25"
+                            data-aos-easing="ease-in-out-cubic"
+                        >
+                            <Card>
                                 <Card.Img variant="top" src={vans} />
                                 <Card.Body>
                                     <Card.Title>Vans</Card.Title>
@@ -82,8 +92,13 @@ class HomeComp extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col>
-                            <Card data-aos='fade-up' data-aos-delay='220'>
+                        <Col
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay="25"
+                            data-aos-easing="ease-in-out-cubic"
+                        >
+                            <Card>
                                 <Card.Img variant="top" src={volcom} />
                                 <Card.Body>
                                     <Card.Title>Volcom</Card.Title>
@@ -93,8 +108,13 @@ class HomeComp extends Component {
                                 </Card.Body>
                             </Card>
                         </Col>
-                        <Col>
-                            <Card data-aos='fade-up' data-aos-delay='220'>
+                        <Col
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay="25"
+                            data-aos-easing="ease-in-out-cubic"
+                        >
+                            <Card>
                                 <Card.Img variant="top" src={supreme} />
                                 <Card.Body>
                                     <Card.Title>Supreme</Card.Title>

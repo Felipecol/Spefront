@@ -55,6 +55,7 @@
     color: black;
     border-radius: 10px;
     transform: rotateY(180deg);
+
 }
 
 #root > div > div:nth-child(2) > div > div > div > div.flip-card-front > div{
@@ -78,6 +79,12 @@
     .flip-card{
         margin: 0px 10px 10px
     }
+    .flip-card-back{
+
+    }
+    .buttonback{
+        margin-top: 20px;
+    }
 }
 
 
@@ -96,9 +103,14 @@
 .buttonback{
     border-radius: 20px;
     z-index: 1;
+    margin: 15px;
 }
 
-p{
-
+.flip-card-back p{
     z-index: 1;
+    font-weight: bold;
+}
+.tittre{
+    font-size: 50px;
+    padding: 0px 0px 35px 0px;
 }

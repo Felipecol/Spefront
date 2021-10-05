@@ -19,8 +19,13 @@ class TrucksComp extends Component {
     render() {
         return (
             <div className="container">
-                <h2 className="tittre">Trucks</h2>
-                <div className="troiscard">
+                <h1 className="tittre">Trucks</h1>
+                <div className="troiscard"
+                     data-aos="fade-up"
+                     data-aos-duration="1000"
+                     data-aos-delay="25"
+                     data-aos-easing="ease-in-out-cubic"
+                >
                     <div className="flip-card">
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
@@ -77,7 +82,12 @@ class TrucksComp extends Component {
                     </div>
                 </div>
 
-                <div className="troiscard">
+                <div className="troiscard"
+                     data-aos="fade-up"
+                     data-aos-duration="1000"
+                     data-aos-delay="25"
+                     data-aos-easing="ease-in-out-cubic"
+                >
                     <div className="flip-card">
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
@@ -133,7 +143,12 @@ class TrucksComp extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="troiscard">
+                <div className="troiscard"
+                     data-aos="fade-up"
+                     data-aos-duration="1000"
+                     data-aos-delay="25"
+                     data-aos-easing="ease-in-out-cubic"
+                >
                     <div className="flip-card">
                         <div className="flip-card-inner">
                             <div className="flip-card-front">
