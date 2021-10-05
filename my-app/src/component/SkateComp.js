@@ -10,9 +10,11 @@ import skatecomplet7 from "../assets/skatecomplet7.jpeg";
 import skatecomplet8 from "../assets/skatecomplet8.jpeg";
 import skatecomplet9 from "../assets/skatecomplet9.jpeg";
 
-import './TrucksComp.css'
+import './SkateComp.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import skateboard1 from "../assets/skateboard1.jpeg";
+import Button from "react-bootstrap/Button";
 AOS.init();
 
 class SkateComp extends Component {
@@ -20,83 +22,176 @@ class SkateComp extends Component {
         return (
             <div className="container">
                 <h2 className="tittre">Skateboards complets</h2>
-                <Row xs={1} md={3} className="g-4" >
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skatecomplet1} />
-                            <Card.Body>
+                <div className="troiscard">
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skatecomplet1} />
                                 <Card.Title>CAT & DOG BLUE</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skatecomplet2} />
-                            <Card.Body>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">CAT & DOG BLUE</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skatecomplet1} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skatecomplet2} />
                                 <Card.Title>THE CAPTAIN PINK</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skatecomplet3} />
-                            <Card.Body>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">THE CAPTAIN PINK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skatecomplet2} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skatecomplet3} />
                                 <Card.Title>PANDA STRIPES RESIN</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skatecomplet4} />
-                            <Card.Body>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">PANDA STRIPES RESIN</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skatecomplet3} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="troiscard">
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skatecomplet4} />
                                 <Card.Title>TIMEWORKS GREEN TIE DYE</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skatecomplet5} />
-                            <Card.Body>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">TIMEWORKS GREEN TIE DYE</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skatecomplet4} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skatecomplet5} />
                                 <Card.Title>DICEY FOIL</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skatecomplet6} />
-                            <Card.Body>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">DICEY FOIL</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skatecomplet5} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skatecomplet6} />
                                 <Card.Title>FURRY MONSTER</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skatecomplet7} />
-                            <Card.Body>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">FURRY MONSTER</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skatecomplet6} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="troiscard">
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skatecomplet7} />
                                 <Card.Title>VICE MONSTER</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skatecomplet8} />
-                            <Card.Body>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">VICE MONSTER</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skatecomplet7} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skatecomplet8} />
                                 <Card.Title>MISFIT PANDA BLACK</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={skatecomplet9} />
-                            <Card.Body>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">MISFIT PANDA BLACK</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skatecomplet8} />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={skatecomplet9} />
                                 <Card.Title>SCREAMING HAND</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-
-                </Row>
+                            </div>
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">SCREAMING HAND</h3>
+                                <p>Taille : 8.25"</p>
+                                <p>Hauteur(cm) : 8.125</p>
+                                <p>Largeur(cm) : 8.125</p>
+                                <p>Poids(kg) : 8.125</p>
+                                <p>Prix : 54,95 €</p>
+                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
+                                <Card.Img className="backimg" variant="top" src={skatecomplet9} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <hr/>
-
             </div>
         );
     }

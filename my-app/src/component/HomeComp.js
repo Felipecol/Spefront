@@ -17,7 +17,7 @@ AOS.init();
 class HomeComp extends Component {
     render() {
         return (
-            <div className= "" >
+            <div className= "container" >
                 {/*---------------------------------------- CAROUSEL -----------------------------------------*/}
                 <Carousel fade className="">
                     <Carousel.Item>
@@ -57,7 +57,7 @@ class HomeComp extends Component {
                 </Carousel>
                 {/*---------------------------------------- 4 CARDS MARQUE -----------------------------------------*/}
                 <hr/>
-                <div className="container" >
+                <div className="" >
                     <h2>Marques iconiques</h2>
                     <Row xs={1} md={2} className="g-4" >
                         <Col>
