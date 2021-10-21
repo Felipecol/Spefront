@@ -1,11 +1,7 @@
 import React, {Component} from 'react';
-<<<<<<< HEAD
 import {Navbar, Nav} from "react-bootstrap";
-=======
-import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from "react-bootstrap";
 import './NavbarComp.css';
 import {Animated} from "react-animated-css";
->>>>>>> e202cca9c67b8cedb6005190381aa074110d7f9b
 import {
     BrowserRouter as Router,
     Switch,
