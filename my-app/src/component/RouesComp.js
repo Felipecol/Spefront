@@ -9,6 +9,8 @@ import roues6 from "../assets/roues6.jpeg";
 import './RouesComp.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import skateboard1 from "../assets/skateboard1.jpeg";
+import Button from "react-bootstrap/Button";
 AOS.init();
 
 
@@ -16,59 +18,139 @@ class RouesComp extends Component {
     render() {
         return (
             <div className="container">
-                <h2 className="tittre">Roues</h2>
-                <Row xs={1} md={3} className="g-4" >
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={roues1} />
-                            <Card.Body>
-                                <Card.Title>FORM WHEELS 53 MM RASTA</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={roues2} />
-                            <Card.Body>
-                                <Card.Title>FORM WHEELS 53 MM BLUE BLACK</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={roues3} />
-                            <Card.Body>
-                                <Card.Title>FORM WHEELS 53 MM BLACK WHITE</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={roues4} />
-                            <Card.Body>
-                                <Card.Title>FORM WHEELS 53 MM</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={roues5} />
-                            <Card.Body>
-                                <Card.Title>SPITFIRE WHEELS 53MM</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={roues6} />
-                            <Card.Body>
-                                <Card.Title>SPITFIRE WHEELS 53MM</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-                <hr/>
+                <h1 className="tittre gradient-text">Roues</h1>
+                {/*------------------------ 3 cartes flip  ----------------------*/}
+                <div className="troiscard"
+                     data-aos="fade-up"
+                     data-aos-duration="1000"
+                     data-aos-delay="25"
+                     data-aos-easing="ease-in-out-cubic"
+                >
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={roues1} alt="Roues de skate" />
+                                <h2>FORM WHEELS 53 MM RASTA</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">FORM WHEELS 53 MM RASTA</h3>
+                                <p>Couleur: Bleu</p>
+                                <p>Diamètre: 52Mm</p>
+                                <p>Dureté: 103A</p>
+                                <p>Couleur Secondaire: Noir</p>
+                                <p>Prix : 22,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={roues1} alt="Roues de skate" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={roues2} alt="Roues de skate" />
+                                <h2>FORM WHEELS 53 MM BLUE BLACK</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">FORM WHEELS 53 MM BLUE BLACK</h3>
+                                <p>Couleur: Bleu</p>
+                                <p>Diamètre: 52Mm</p>
+                                <p>Dureté: 103A</p>
+                                <p>Couleur Secondaire: Noir</p>
+                                <p>Prix : 22,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={roues2} alt="Roues de skate" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={roues3} />
+                                <h2>FORM WHEELS 53 MM BLACK WHITE</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">FORM WHEELS 53 MM BLACK WHITE</h3>
+                                <p>Couleur: Bleu</p>
+                                <p>Diamètre: 52Mm</p>
+                                <p>Dureté: 103A</p>
+                                <p>Couleur Secondaire: Noir</p>
+                                <p>Prix : 22,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={roues3} alt="Roues de skate" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/*------------------------ 3 cartes flip  ----------------------*/}
+                <div className="troiscard"
+                     data-aos="fade-up"
+                     data-aos-duration="1000"
+                     data-aos-delay="25"
+                     data-aos-easing="ease-in-out-cubic"
+                >
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={roues4} alt="Roues de skate" />
+                                <h2>FORM WHEELS 53 MM</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">FORM WHEELS 53 MM</h3>
+                                <p>Couleur: Bleu</p>
+                                <p>Diamètre: 52Mm</p>
+                                <p>Dureté: 103A</p>
+                                <p>Couleur Secondaire: Noir</p>
+                                <p>Prix : 22,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={roues4} alt="Roues de skate" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={roues5} alt="Roues de skate" />
+                                <h2>SPITFIRE WHEELS 53MM</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">SPITFIRE WHEELS 53MM</h3>
+                                <p>Couleur: Bleu</p>
+                                <p>Diamètre: 52Mm</p>
+                                <p>Dureté: 103A</p>
+                                <p>Couleur Secondaire: Noir</p>
+                                <p>Prix : 22,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={roues5} alt="Roues de skate" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={roues6} alt="Roues de skate" />
+                                <h2>SPITFIRE WHEELS 53MM</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">SPITFIRE WHEELS 53MM</h3>
+                                <p>Couleur: Bleu</p>
+                                <p>Diamètre: 52Mm</p>
+                                <p>Dureté: 103A</p>
+                                <p>Couleur Secondaire: Noir</p>
+                                <p>Prix : 22,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={roues6} alt="Roues de skate" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+                <hr/>
             </div>
         );
     }

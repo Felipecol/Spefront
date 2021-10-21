@@ -1,5 +1,6 @@
 .container{
     padding: 0% 5% 0% 5%;
+    margin-top: 98px;
 }
 hr{
     margin-top: 5%;
@@ -57,9 +58,7 @@ h2{
     margin-bottom: 4em;
 }
 
-#navbarScroll{
-    background-color: white;
-}
+
 .navbar-light .navbar-nav .nav-link {
     color: black;
 }

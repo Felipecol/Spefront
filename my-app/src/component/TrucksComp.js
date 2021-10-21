@@ -12,89 +12,210 @@ import trucks9 from "../assets/trucks9.jpeg";
 import './TrucksComp.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Button from "react-bootstrap/Button";
 AOS.init();
 
 class TrucksComp extends Component {
     render() {
         return (
             <div className="container">
-                <h2 className="tittre">Trucks</h2>
-                <Row xs={1} md={3} className="g-4" >
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={trucks1} />
-                            <Card.Body>
-                                <Card.Title>NORA TRIANGLE</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={trucks2} />
-                            <Card.Body>
-                                <Card.Title>MAG LIGHT LO SLICKS MULLEN</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={trucks3} />
-                            <Card.Body>
-                                <Card.Title>SILVAS OMNI POLISHED BLACK</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={trucks4} />
-                            <Card.Body>
-                                <Card.Title>PRO MASON SILVA BLK SILVER</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={trucks5} />
-                            <Card.Body>
-                                <Card.Title>FULL BLEED EDITION</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={trucks6} />
-                            <Card.Body>
-                                <Card.Title>TEAM HOLLOW RAW</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={trucks7} />
-                            <Card.Body>
-                                <Card.Title>MAG LIGHT SLICKS DAEWON SONG</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={trucks8} />
-                            <Card.Body>
-                                <Card.Title>MAG LIGHT REFLECT SILVER RED</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col>
-                        <Card data-aos='fade-up' data-aos-delay='220'>
-                            <Card.Img variant="top" src={trucks9} />
-                            <Card.Body>
-                                <Card.Title>ALUM STENC MIR RAW LT BLUE FADE</Card.Title>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
+                <h1 className="tittre gradient-text">Trucks</h1>
+                {/*------------------------ 3 cartes flip  ----------------------*/}
+                <div className="troiscard"
+                     data-aos="fade-up"
+                     data-aos-duration="1000"
+                     data-aos-delay="25"
+                     data-aos-easing="ease-in-out-cubic"
+                >
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={trucks1} alt="Trucks de skate" />
+                                <h2>NORA TRIANGLE</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">NORA TRIANGLE</h3>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
+                                <p>Prix : 54,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={trucks1} alt="Trucks de skate" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={trucks2} alt="Trucks de skate" />
+                                <h2>MAG LIGHT LO SLICKS MULLEN</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">MAG LIGHT LO SLICKS MULLEN</h3>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
+                                <p>Prix : 54,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={trucks2} alt="Trucks de skate" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={trucks3} alt="Trucks de skate" />
+                                <h2>SILVAS OMNI POLISHED BLACK</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">SILVAS OMNI POLISHED BLACK</h3>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
+                                <p>Prix : 54,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={trucks3} alt="Trucks de skate" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/*------------------------ 3 cartes flip  ----------------------*/}
+                <div className="troiscard"
+                     data-aos="fade-up"
+                     data-aos-duration="1000"
+                     data-aos-delay="25"
+                     data-aos-easing="ease-in-out-cubic"
+                >
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={trucks4} alt="Trucks de skate" />
+                                <h2>PRO MASON SILVA BLK SILVER</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">PRO MASON SILVA BLK SILVER</h3>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
+                                <p>Prix : 54,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={trucks4} alt="Trucks de skate" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={trucks5} alt="Trucks de skate" />
+                                <h2>FULL BLEED EDITION</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">FULL BLEED EDITION</h3>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
+                                <p>Prix : 54,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={trucks5} alt="Trucks de skate" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={trucks6} alt="Trucks de skate" />
+                                <h2>TEAM HOLLOW RAW</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">TEAM HOLLOW RAW</h3>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
+                                <p>Prix : 54,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={trucks6} alt="Trucks de skate" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {/*------------------------ 3 cartes flip  ----------------------*/}
+                <div className="troiscard"
+                     data-aos="fade-up"
+                     data-aos-duration="1000"
+                     data-aos-delay="25"
+                     data-aos-easing="ease-in-out-cubic"
+                >
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={trucks7} alt="Trucks de skate" />
+                                <h2>MAG LIGHT SLICKS DAEWON SONG</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">MAG LIGHT SLICKS DAEWON SONG</h3>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
+                                <p>Prix : 54,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={trucks7} alt="Trucks de skate" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={trucks8} alt="Trucks de skate" />
+                                <h2>MAG LIGHT REFLECT SILVER RED</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">MAG LIGHT REFLECT SILVER RED</h3>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
+                                <p>Prix : 54,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={trucks8} alt="Trucks de skate" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="flip-card">
+                        <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
+                            <div className="flip-card-front">
+                                <Card.Img variant="top" src={trucks9} alt="Trucks de skate" />
+                                <h2>ALUM STENC MIR RAW LT BLUE FADE</h2>
+                            </div>
+                            {/*------------------------ back card ----------------------*/}
+                            <div className="flip-card-back">
+                                <h3 className="backtitle">ALUM STENC MIR RAW LT BLUE FADE</h3>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
+                                <p>Prix : 54,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={trucks9} alt="Trucks de skate" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <hr/>
-
             </div>
         );
     }

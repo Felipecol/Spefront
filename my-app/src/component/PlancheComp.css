@@ -1,24 +1,14 @@
-#root > div > div:nth-child(2) > div > div > div:nth-child(1) > div > div > div > div{
-    padding: 1rem 1rem;
-}
-.skateranim{
-    margin:0 !important;
-    padding: 0 15px 0 15px;
-}
-
-.skateranim:hover {
-
-    animation: bounce 5s;
-
-}
-
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 200px;
-    border: 1px solid #f1f1f1;
+    width: 376px;
+    height: 544px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin: 0px 10px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow:  9px 9px 15px #c7c7c7,
+    -9px -9px 15px #ffffff;
 }
 
 /* This container is needed to position the front and back side */
@@ -47,13 +37,104 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-    background-color: #bbb;
+    background-color: white;
     color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Style the back side */
 .flip-card-back {
-    background-color: dodgerblue;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
     transform: rotateY(180deg);
+
+}
+
+#root > div > div:nth-child(2) > div > div > div > div.flip-card-front > div{
+    background-color: white;
+}
+
+.troiscard{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* flex-direction: column;*/
+}
+
+
+@media screen and (max-width: 1150px) {
+    .troiscard{
+        margin-bottom: 0px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .flip-card{
+        margin: 0px 10px 10px
+    }
+    .flip-card-back{
+
+    }
+    .buttonback{
+        margin-top: 20px;
+    }
+}
+
+
+.backimg{
+    position: absolute;
+    opacity: 0.5;
+}
+.frontimg{
+    width: 85%;
+}
+.backtitle{
+    font-size: 40px;
+    font-family: acier-bat-noir, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 6%;
+    z-index: 1;
+}
+.buttonback{
+    border-radius: 20px;
+    z-index: 1;
+    margin: 15px;
+}
+
+.flip-card-back p{
+    z-index: 1;
+    font-weight: bold;
+}
+.tittre{
+    font-size: 50px;
+    padding: 0px 0px 35px 0px;
+}
+
+.gradient-text{
+    background: linear-gradient(to right, crimson,pink,springgreen);
+    background-size: 200% 200%;
+    animation: rainbow 2s ease-in-out infinite;
+    -webkit-background-clip:text;
+    color:rgba(0,0,0,1);
+    text-align:center;
+    transition: color .2s ease-in-out;
+    text-transform:uppercase;
+
+}
+.gradient-text:hover{
+    color:rgba(0,0,0,0);
+}
+@keyframes rainbow {
+    0%{background-position:left}
+    50%{background-position:right}
+    100%{background-position:left}
 }

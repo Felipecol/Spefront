@@ -18,6 +18,8 @@ import RouesComp from "./RouesComp";
 import SkateComp from "./SkateComp";
 import TrucksComp from "./TrucksComp";
 import HomeComp from "./HomeComp";
+import pagenotfound from "./pagenotfound";
+import MailComp from "./MailComp";
 
 
 class navbar extends Component {
@@ -25,13 +27,18 @@ class navbar extends Component {
     render() {
         return (
             <Router>
-
-                <div>
-                    <Navbar bg="" variant={"light"} expand="lg" >
-                        <Animated className="skateranim" animationIn="bounceInLeft"  isVisible={true}>
-                                <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_HrNNmm.json"  background="rgba(0, 0, 0, 0)"  speed="1"  styles="width: 5px; height: 5px;"  loop  autoplay></lottie-player>
+              <div className="">
+                  {/*---------------------------------------- menu navbar  -----------------------------------------*/}
+                    <Navbar className="lanavbar" bg="" variant={"light"} expand="lg"
+                            data-aos="fade-down"
+                            data-aos-duration="500"
+                            data-aos-delay="50"
+                            data-aos-easing="ease-in-out-cubic"
+                    >
+                        <Animated className="skaterfouu" animationIn="bounceInLeft" data-aos-delay="50" isVisible={true}>
+                                <lottie-player alt="logo skater" src="https://assets10.lottiefiles.com/packages/lf20_HrNNmm.json"  background="rgba(0, 0, 0, 0)"  speed="1"  styles="width: 5px; height: 5px;"  loop  autoplay></lottie-player>
                         </Animated>
-                        <Animated animationIn="bounceInLeft"  isVisible={true}>
+                        <Animated isVisible={true}>
                             <Navbar.Brand className="skatalog" >
                                 <a><b>&#123;s&#x7D;katalog</b></a>
                             </Navbar.Brand>
@@ -40,46 +47,48 @@ class navbar extends Component {
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
                             <Nav
-                                className="mr-auto my-2 my-lg-0"
+                                className="menuoff mr-auto my-2 my-lg-0"
                                 style={{ maxHeight: '100px' }}
                                 navbarScroll
                             >
                                 <Nav.Link as={Link} to={"/HomeComp"}>Home</Nav.Link>
-                                <Nav.Link as={Link} to={"/ProtectionComp"}>Favoris</Nav.Link>
                                 <Nav.Link as={Link} to={"/PlancheComp"}>Planche de skate</Nav.Link>
                                 <Nav.Link as={Link} to={"/RouesComp"}>Roues</Nav.Link>
                                 <Nav.Link as={Link} to={"/SkateComp"}>Skateboard complet</Nav.Link>
                                 <Nav.Link as={Link} to={"/TrucksComp"}>Trucks</Nav.Link>
+                                <Nav.Link as={Link} to={"/MailComp"}>Contact</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Navbar>
                 </div>
                 <div>
+                    {/*---------------------------------------- route & switch  -----------------------------------------*/}
                     <Switch>
-                        <Route path="/PlancheComp">
-                            <PlancheComp/>
-                        </Route>
-                        <Route path="/ProtectionComp">
-                            <ProtectionComp />
-                        </Route>
-                        <Route path="/RouesComp">
-                            <RouesComp />
-                        </Route>
-                        <Route path="/SkateComp">
-                            <SkateComp/>
-                        </Route>
-                        <Route path="/TrucksComp">
-                            <TrucksComp/>
-                        </Route>
-                        <Route default path="/">
-                            <HomeComp/>
-                        </Route>
+
+                        <Route exact path="/PlancheComp" component={PlancheComp}/>
+
+
+                        <Route exact path="/MailComp" component={MailComp}/>
+
+
+                        <Route exact path="/RouesComp" component={RouesComp}/>
+
+
+                        <Route exact path="/SkateComp" component={SkateComp}/>
+
+
+                        <Route exact path="/TrucksComp" component={TrucksComp}/>
+
+
+                        <Route path="/" component={HomeComp}/>
+
+
+                        <Route path="*" component={pagenotfound}/>
+
 
                     </Switch>
                 </div>
-
-            </Router>
-
+           </Router>
         );
     }
 }

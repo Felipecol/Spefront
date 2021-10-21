@@ -1,0 +1,14 @@
+.mailer{
+    display: flex;
+    flex-direction: column;
+}
+.invis{
+    display: none;
+}
+.btn{
+    margin-top: 30px;
+}
+
+.titreMail{
+    margin-top: 30px;
+}
