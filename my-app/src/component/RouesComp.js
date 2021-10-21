@@ -18,7 +18,8 @@ class RouesComp extends Component {
     render() {
         return (
             <div className="container">
-                <h1 className="tittre">Roues</h1>
+                <h1 className="tittre gradient-text">Roues</h1>
+                {/*------------------------ 3 cartes flip  ----------------------*/}
                 <div className="troiscard"
                      data-aos="fade-up"
                      data-aos-duration="1000"
@@ -27,60 +28,63 @@ class RouesComp extends Component {
                 >
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
-                                <Card.Img variant="top" src={roues1} />
-                                <Card.Title>FORM WHEELS 53 MM RASTA</Card.Title>
+                                <Card.Img variant="top" src={roues1} alt="Roues de skate" />
+                                <h2>FORM WHEELS 53 MM RASTA</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">FORM WHEELS 53 MM RASTA</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
-                                <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={roues1} />
+                                <p>Couleur: Bleu</p>
+                                <p>Diamètre: 52Mm</p>
+                                <p>Dureté: 103A</p>
+                                <p>Couleur Secondaire: Noir</p>
+                                <p>Prix : 22,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={roues1} alt="Roues de skate" />
                             </div>
                         </div>
                     </div>
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
-                                <Card.Img variant="top" src={roues2} />
-                                <Card.Title>FORM WHEELS 53 MM BLUE BLACK</Card.Title>
+                                <Card.Img variant="top" src={roues2} alt="Roues de skate" />
+                                <h2>FORM WHEELS 53 MM BLUE BLACK</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">FORM WHEELS 53 MM BLUE BLACK</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
-                                <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={roues2} />
+                                <p>Couleur: Bleu</p>
+                                <p>Diamètre: 52Mm</p>
+                                <p>Dureté: 103A</p>
+                                <p>Couleur Secondaire: Noir</p>
+                                <p>Prix : 22,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={roues2} alt="Roues de skate" />
                             </div>
                         </div>
                     </div>
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
                                 <Card.Img variant="top" src={roues3} />
-                                <Card.Title>FORM WHEELS 53 MM BLACK WHITE</Card.Title>
+                                <h2>FORM WHEELS 53 MM BLACK WHITE</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">FORM WHEELS 53 MM BLACK WHITE</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
-                                <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={roues3} />
+                                <p>Couleur: Bleu</p>
+                                <p>Diamètre: 52Mm</p>
+                                <p>Dureté: 103A</p>
+                                <p>Couleur Secondaire: Noir</p>
+                                <p>Prix : 22,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={roues3} alt="Roues de skate" />
                             </div>
                         </div>
                     </div>
                 </div>
-
+                {/*------------------------ 3 cartes flip  ----------------------*/}
                 <div className="troiscard"
                      data-aos="fade-up"
                      data-aos-duration="1000"
@@ -89,55 +93,58 @@ class RouesComp extends Component {
                 >
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
-                                <Card.Img variant="top" src={roues4} />
-                                <Card.Title>FORM WHEELS 53 MM</Card.Title>
+                                <Card.Img variant="top" src={roues4} alt="Roues de skate" />
+                                <h2>FORM WHEELS 53 MM</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">FORM WHEELS 53 MM</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
-                                <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={roues4} />
+                                <p>Couleur: Bleu</p>
+                                <p>Diamètre: 52Mm</p>
+                                <p>Dureté: 103A</p>
+                                <p>Couleur Secondaire: Noir</p>
+                                <p>Prix : 22,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={roues4} alt="Roues de skate" />
                             </div>
                         </div>
                     </div>
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
-                                <Card.Img variant="top" src={roues5} />
-                                <Card.Title>SPITFIRE WHEELS 53MM</Card.Title>
+                                <Card.Img variant="top" src={roues5} alt="Roues de skate" />
+                                <h2>SPITFIRE WHEELS 53MM</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">SPITFIRE WHEELS 53MM</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
-                                <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={roues5} />
+                                <p>Couleur: Bleu</p>
+                                <p>Diamètre: 52Mm</p>
+                                <p>Dureté: 103A</p>
+                                <p>Couleur Secondaire: Noir</p>
+                                <p>Prix : 22,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={roues5} alt="Roues de skate" />
                             </div>
                         </div>
                     </div>
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
-                                <Card.Img variant="top" src={roues6} />
-                                <Card.Title>SPITFIRE WHEELS 53MM</Card.Title>
+                                <Card.Img variant="top" src={roues6} alt="Roues de skate" />
+                                <h2>SPITFIRE WHEELS 53MM</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">SPITFIRE WHEELS 53MM</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
-                                <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={roues6} />
+                                <p>Couleur: Bleu</p>
+                                <p>Diamètre: 52Mm</p>
+                                <p>Dureté: 103A</p>
+                                <p>Couleur Secondaire: Noir</p>
+                                <p>Prix : 22,95 €</p>
+                                <Card.Img className="backimg" variant="top" src={roues6} alt="Roues de skate" />
                             </div>
                         </div>
                     </div>

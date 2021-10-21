@@ -19,7 +19,8 @@ class TrucksComp extends Component {
     render() {
         return (
             <div className="container">
-                <h1 className="tittre">Trucks</h1>
+                <h1 className="tittre gradient-text">Trucks</h1>
+                {/*------------------------ 3 cartes flip  ----------------------*/}
                 <div className="troiscard"
                      data-aos="fade-up"
                      data-aos-duration="1000"
@@ -28,60 +29,63 @@ class TrucksComp extends Component {
                 >
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
-                                <Card.Img variant="top" src={trucks1} />
-                                <Card.Title>NORA TRIANGLE</Card.Title>
+                                <Card.Img variant="top" src={trucks1} alt="Trucks de skate" />
+                                <h2>NORA TRIANGLE</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">NORA TRIANGLE</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
                                 <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={trucks1} />
+                                <Card.Img className="backimg" variant="top" src={trucks1} alt="Trucks de skate" />
                             </div>
                         </div>
                     </div>
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
-                                <Card.Img variant="top" src={trucks2} />
-                                <Card.Title>MAG LIGHT LO SLICKS MULLEN</Card.Title>
+                                <Card.Img variant="top" src={trucks2} alt="Trucks de skate" />
+                                <h2>MAG LIGHT LO SLICKS MULLEN</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">MAG LIGHT LO SLICKS MULLEN</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
                                 <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={trucks2} />
+                                <Card.Img className="backimg" variant="top" src={trucks2} alt="Trucks de skate" />
                             </div>
                         </div>
                     </div>
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
-                                <Card.Img variant="top" src={trucks3} />
-                                <Card.Title>SILVAS OMNI POLISHED BLACK</Card.Title>
+                                <Card.Img variant="top" src={trucks3} alt="Trucks de skate" />
+                                <h2>SILVAS OMNI POLISHED BLACK</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">SILVAS OMNI POLISHED BLACK</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
                                 <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={trucks3} />
+                                <Card.Img className="backimg" variant="top" src={trucks3} alt="Trucks de skate" />
                             </div>
                         </div>
                     </div>
                 </div>
-
+                {/*------------------------ 3 cartes flip  ----------------------*/}
                 <div className="troiscard"
                      data-aos="fade-up"
                      data-aos-duration="1000"
@@ -90,59 +94,63 @@ class TrucksComp extends Component {
                 >
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
-                                <Card.Img variant="top" src={trucks4} />
-                                <Card.Title>PRO MASON SILVA BLK SILVER</Card.Title>
+                                <Card.Img variant="top" src={trucks4} alt="Trucks de skate" />
+                                <h2>PRO MASON SILVA BLK SILVER</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">PRO MASON SILVA BLK SILVER</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
                                 <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={trucks4} />
+                                <Card.Img className="backimg" variant="top" src={trucks4} alt="Trucks de skate" />
                             </div>
                         </div>
                     </div>
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
-                                <Card.Img variant="top" src={trucks5} />
-                                <Card.Title>FULL BLEED EDITION</Card.Title>
+                                <Card.Img variant="top" src={trucks5} alt="Trucks de skate" />
+                                <h2>FULL BLEED EDITION</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">FULL BLEED EDITION</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
                                 <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={trucks5} />
+                                <Card.Img className="backimg" variant="top" src={trucks5} alt="Trucks de skate" />
                             </div>
                         </div>
                     </div>
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
-                                <Card.Img variant="top" src={trucks6} />
-                                <Card.Title>TEAM HOLLOW RAW</Card.Title>
+                                <Card.Img variant="top" src={trucks6} alt="Trucks de skate" />
+                                <h2>TEAM HOLLOW RAW</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">TEAM HOLLOW RAW</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
                                 <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={trucks6} />
+                                <Card.Img className="backimg" variant="top" src={trucks6} alt="Trucks de skate" />
                             </div>
                         </div>
                     </div>
                 </div>
+                {/*------------------------ 3 cartes flip  ----------------------*/}
                 <div className="troiscard"
                      data-aos="fade-up"
                      data-aos-duration="1000"
@@ -151,55 +159,58 @@ class TrucksComp extends Component {
                 >
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
-                                <Card.Img variant="top" src={trucks7} />
-                                <Card.Title>MAG LIGHT SLICKS DAEWON SONG</Card.Title>
+                                <Card.Img variant="top" src={trucks7} alt="Trucks de skate" />
+                                <h2>MAG LIGHT SLICKS DAEWON SONG</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">MAG LIGHT SLICKS DAEWON SONG</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
                                 <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={trucks7} />
+                                <Card.Img className="backimg" variant="top" src={trucks7} alt="Trucks de skate" />
                             </div>
                         </div>
                     </div>
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
-                                <Card.Img variant="top" src={trucks8} />
-                                <Card.Title>MAG LIGHT REFLECT SILVER RED</Card.Title>
+                                <Card.Img variant="top" src={trucks8} alt="Trucks de skate" />
+                                <h2>MAG LIGHT REFLECT SILVER RED</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">MAG LIGHT REFLECT SILVER RED</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
                                 <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={trucks8} />
+                                <Card.Img className="backimg" variant="top" src={trucks8} alt="Trucks de skate" />
                             </div>
                         </div>
                     </div>
                     <div className="flip-card">
                         <div className="flip-card-inner">
+                            {/*------------------------ front card ----------------------*/}
                             <div className="flip-card-front">
-                                <Card.Img variant="top" src={trucks9} />
-                                <Card.Title>ALUM STENC MIR RAW LT BLUE FADE</Card.Title>
+                                <Card.Img variant="top" src={trucks9} alt="Trucks de skate" />
+                                <h2>ALUM STENC MIR RAW LT BLUE FADE</h2>
                             </div>
+                            {/*------------------------ back card ----------------------*/}
                             <div className="flip-card-back">
                                 <h3 className="backtitle">ALUM STENC MIR RAW LT BLUE FADE</h3>
-                                <p>Taille : 8.25"</p>
-                                <p>Hauteur(cm) : 8.125</p>
-                                <p>Largeur(cm) : 8.125</p>
-                                <p>Poids(kg) : 8.125</p>
+                                <p>Couleur: Jaune</p>
+                                <p>Hauteur: Mid</p>
+                                <p>Largeur: 5.6 (143 Mm)</p>
+                                <p>Poids: 340G</p>
                                 <p>Prix : 54,95 €</p>
-                                <Button className="buttonback" variant="outline-dark">Favoris</Button>
-                                <Card.Img className="backimg" variant="top" src={trucks9} />
+                                <Card.Img className="backimg" variant="top" src={trucks9} alt="Trucks de skate" />
                             </div>
                         </div>
                     </div>

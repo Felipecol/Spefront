@@ -42,7 +42,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 /* Style the back side */

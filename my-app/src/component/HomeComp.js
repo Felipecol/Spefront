@@ -19,7 +19,7 @@ class HomeComp extends Component {
         return (
             <div className= "container" >
                 {/*---------------------------------------- CAROUSEL -----------------------------------------*/}
-                <Carousel fade className="">
+                <Carousel  className="">
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
@@ -39,7 +39,7 @@ class HomeComp extends Component {
 
                         />
                         <Carousel.Caption>
-                            <h1><b>&#123;s&#x7D;katalog</b></h1>
+                            <h2><b>&#123;s&#x7D;katalog</b></h2>
                             <p><b>&#123;s&#x7D;katalog votre catalogue de skate en ligne</b></p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -50,14 +50,14 @@ class HomeComp extends Component {
                             alt="Third slide"
                         />
                         <Carousel.Caption>
-                            <h1><b>&#123;s&#x7D;katalog</b></h1>
+                            <h2><b>&#123;s&#x7D;katalog</b></h2>
                             <p><b>&#123;s&#x7D;katalog votre catalogue de skate en ligne</b></p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
                 {/*---------------------------------------- 4 CARDS MARQUE -----------------------------------------*/}
                 <hr/>
-                <div>
+                <div className="">
                     <h2>Marques iconiques</h2>
                     <Row xs={1} md={2} className="g-4" >
                         <Col
@@ -67,9 +67,9 @@ class HomeComp extends Component {
                             data-aos-easing="ease-in-out-cubic"
                         >
                             <Card>
-                                <Card.Img variant="top" src={trasher} />
+                                <Card.Img variant="top" src={trasher} alt='Trasher marque' />
                                     <Card.Body>
-                                        <Card.Title>Trasher</Card.Title>
+                                        <h3>Trasher</h3>
                                             <Card.Text>
                                                 Les vêtements Thrasher avec des slogans comme "Skate And Destroy" et le logo emblématique Skate Goat sont un incontournable pour tous les skateurs.
                                             </Card.Text>
@@ -83,9 +83,9 @@ class HomeComp extends Component {
                             data-aos-easing="ease-in-out-cubic"
                         >
                             <Card>
-                                <Card.Img variant="top" src={vans} />
+                                <Card.Img variant="top" src={vans} alt="Vans marque" />
                                 <Card.Body>
-                                    <Card.Title>Vans</Card.Title>
+                                    <h3>Vans</h3>
                                     <Card.Text>
                                         Vans est synonyme de chaussures de skate et ce depuis 1966. La marque californienne a cimenté sa place dans le skate avec ses semelles gaufrées et est là pour rester.
                                     </Card.Text>
@@ -99,9 +99,9 @@ class HomeComp extends Component {
                             data-aos-easing="ease-in-out-cubic"
                         >
                             <Card>
-                                <Card.Img variant="top" src={volcom} />
+                                <Card.Img variant="top" src={volcom} alt="Volcom marque" />
                                 <Card.Body>
-                                    <Card.Title>Volcom</Card.Title>
+                                    <h3>Volcom</h3>
                                     <Card.Text>
                                         Avec le streetwear de Volcom, vous êtes parfaitement équipé pour chaque session de skate. La marque avec le logo "Volcom Stone" se concentre sur des designs créatifs depuis plus de 20 ans.
                                     </Card.Text>
@@ -115,9 +115,9 @@ class HomeComp extends Component {
                             data-aos-easing="ease-in-out-cubic"
                         >
                             <Card>
-                                <Card.Img variant="top" src={supreme} />
+                                <Card.Img variant="top" src={supreme} alt="Supreme marque" />
                                 <Card.Body>
-                                    <Card.Title>Supreme</Card.Title>
+                                    <h3>Supreme</h3>
                                     <Card.Text>
                                         Supreme est une marque de vêtements streetwear et accessoires de mode fondée à New York en 1994 par James Jebbia. Le personnel et les clients du magasin étaient principalement constitués de jeunes skateurs.
                                     </Card.Text>
@@ -131,7 +131,7 @@ class HomeComp extends Component {
                     <Row className="eventpage" >
                     <Col>
                             <Card.Body data-aos="zoom-in" data-aos-delay='420'>
-                                <Card.Title>VANS PARK SERIES</Card.Title>
+                                <h3>VANS PARK SERIES</h3>
                                 <Card.Text>
                                     Comme l'an dernier, les Vans Park Series 2022 se dérouleront à Chelles, près de Paris. Cette étape française, qui s'inscrit dans la phase de qualifications internationales, aura lieu les 19 et 20 juin.
                                 </Card.Text>
@@ -139,8 +139,7 @@ class HomeComp extends Component {
                     </Col>
                         <Col>
                             <Card data-aos='fade-up' data-aos-delay='220'>
-                                <Card.Img variant="top" src={skateevent} />
-
+                                <Card.Img variant="top" src={skateevent} alt="Vans evenement" />
                             </Card>
                         </Col>
                     </Row>
@@ -148,8 +147,6 @@ class HomeComp extends Component {
                 </div>
 
             </div>
-
-
         );
     }
 }
