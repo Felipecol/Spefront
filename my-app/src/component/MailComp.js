@@ -1,9 +1,18 @@
 import React, {Component} from 'react';
 import "./MailComp.css";
 import emailjs from "emailjs-com";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link, Redirect
+} from "react-router-dom";
+
 
 
 const MailComp = () => {
+
+
     function sendEmail(e) {
         e.preventDefault();
         emailjs.sendForm(
@@ -12,7 +21,9 @@ const MailComp = () => {
             e.target,
             "user_LdSr4YC5kDv1yfiZ5MLod").then(res=>{
                 console.log(res);
+            window.location.href="http://localhost:3000/Yeptest";
         }).catch(err=> console.log(err));
+
     }
 
         return (
@@ -28,7 +39,8 @@ const MailComp = () => {
 
                     <label className="titreMail">Message</label>
                     <textarea name="Message" rows="4" className="form-control"/>
-                    <input type="submit" value="Envoyer" className="form-control btn btn-primary"/>
+
+                    <input type="submit" value="Envoyer" className="form-control btn btn-primary"   />
 
                 </form>
 
