@@ -119,22 +119,3 @@
     padding: 0px 0px 35px 0px;
 }
 
-.gradient-text{
-    background: linear-gradient(to right, crimson,pink,springgreen);
-    background-size: 200% 200%;
-    animation: rainbow 2s ease-in-out infinite;
-    -webkit-background-clip:text;
-    color:rgba(0,0,0,1);
-    text-align:center;
-    transition: color .2s ease-in-out;
-    text-transform:uppercase;
-
-}
-.gradient-text:hover{
-    color:rgba(0,0,0,0);
-}
-@keyframes rainbow {
-    0%{background-position:left}
-    50%{background-position:right}
-    100%{background-position:left}
-}

@@ -16,6 +16,7 @@ import TrucksComp from "./TrucksComp";
 import HomeComp from "./HomeComp";
 import pagenotfound from "./pagenotfound";
 import MailComp from "./MailComp";
+import Yeptest from "./Yeptest";
 
 
 class navbar extends Component {
@@ -31,9 +32,10 @@ class navbar extends Component {
                             data-aos-delay="50"
                             data-aos-easing="ease-in-out-cubic"
                     >
-                        <Animated className="skaterfouu" animationIn="bounceInLeft" data-aos-delay="50" isVisible={true}>
-                                <lottie-player alt="logo skater" src="https://assets10.lottiefiles.com/packages/lf20_HrNNmm.json"  background="rgba(0, 0, 0, 0)"  speed="1"  styles="width: 5px; height: 5px;"  loop  autoplay></lottie-player>
-                        </Animated>
+
+                        <div className="skaterfouu">
+                                <lottie-player className="safari" alt="logo skater" src="https://assets10.lottiefiles.com/packages/lf20_HrNNmm.json"  background="rgba(0, 0, 0, 0)"  speed="1"   loop  autoplay></lottie-player>
+                        </div>
                         <Animated isVisible={true}>
                             <Navbar.Brand className="skatalog" >
                                 <a><b>&#123;s&#x7D;katalog</b></a>
@@ -75,11 +77,9 @@ class navbar extends Component {
 
                         <Route exact path="/TrucksComp" component={TrucksComp}/>
 
+                        <Route path="/Yeptest" component={Yeptest}/>
 
                         <Route path="/" component={HomeComp}/>
-
-
-                        <Route path="*" component={pagenotfound}/>
 
 
                     </Switch>
