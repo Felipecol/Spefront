@@ -27,6 +27,7 @@ const MailComp = () => {
     }
 
         return (
+
             <div className="container">
                 <div>
                 <h1 className="tittre">Contactez-nous</h1>

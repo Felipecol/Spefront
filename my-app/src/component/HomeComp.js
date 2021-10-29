@@ -12,12 +12,16 @@ import './HomeCom.css';
 import {Card, Col, Row} from "react-bootstrap";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import navbar from "./NavbarComp";
+import FooterComp from "./FooterComp";
 AOS.init();
 
 class HomeComp extends Component {
     render() {
         return (
+
             <div className= "container" >
+
                 {/*---------------------------------------- CAROUSEL -----------------------------------------*/}
                 <Carousel  className="">
                     <Carousel.Item>
