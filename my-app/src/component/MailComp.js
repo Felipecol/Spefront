@@ -44,7 +44,7 @@ const MailComp = () => {
                     <label className="titreMail">Message</label>
                     <textarea name="Message" rows="4" className="form-control"/>
 
-                    <input type="submit" value="Envoyer" className="form-control btn btn-primary"   />
+                    <input type="submit" value="Envoyer" className="form-control btn btn-primary" onClick={redir}  />
 
                 </form>
                 </div>
