@@ -11,9 +11,7 @@ import {
 
 
 const MailComp = () => {
-    function redir() {
-        window.location.href="http://skatalog.netlify.app/Yeptest";
-    }
+
 
     function sendEmail(e) {
         e.preventDefault();
@@ -23,7 +21,7 @@ const MailComp = () => {
             e.target,
             "user_LdSr4YC5kDv1yfiZ5MLod").then(res=>{
                 console.log(res);
-
+            window.location.href="http://skatalog.netlify.app/Yeptest";
         }).catch(err=> console.log(err));
 
     }
@@ -33,7 +31,7 @@ const MailComp = () => {
             <div className="container">
                 <div>
                 <h1 className="tittre">Contactez-nous</h1>
-                <form className="mailer" onSubmit={sendEmail}>
+                <form className="mailer" onSubmit={sendEmail} onClick={sendEmail}>
 
                     <label>Nom</label>
                     <input type="text" name="name" className="form-control"/>
@@ -44,7 +42,7 @@ const MailComp = () => {
                     <label className="titreMail">Message</label>
                     <textarea name="Message" rows="4" className="form-control"/>
 
-                    <input type="submit" value="Envoyer" className="form-control btn btn-primary" onClick={redir}  />
+                    <input type="submit" value="Envoyer" className="form-control btn btn-primary"   />
 
                 </form>
                 </div>
