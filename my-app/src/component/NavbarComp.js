@@ -25,6 +25,7 @@ class navbar extends Component {
         return (
             <Router>
               <div className="">
+
                   {/*---------------------------------------- menu navbar  -----------------------------------------*/}
                     <Navbar className="lanavbar" bg="" variant={"light"} expand="lg"
                             data-aos="fade-down"
@@ -59,28 +60,31 @@ class navbar extends Component {
                         </Navbar.Collapse>
                     </Navbar>
                 </div>
+
                 <div>
                     {/*---------------------------------------- route & switch  -----------------------------------------*/}
                     <Switch>
 
-                        <Route exact path="/PlancheComp" component={PlancheComp}/>
+                        <Route  path="/PlancheComp" component={PlancheComp}/>
 
 
-                        <Route exact path="/MailComp" component={MailComp}/>
+                        <Route  path="/MailComp" component={MailComp}/>
 
 
-                        <Route exact path="/RouesComp" component={RouesComp}/>
+                        <Route  path="/RouesComp" component={RouesComp}/>
 
 
-                        <Route exact path="/SkateComp" component={SkateComp}/>
+                        <Route  path="/SkateComp" component={SkateComp}/>
 
 
-                        <Route exact path="/TrucksComp" component={TrucksComp}/>
+                        <Route  path="/TrucksComp" component={TrucksComp}/>
 
-                        <Route path="/Yeptest" component={Yeptest}/>
 
-                        <Route path="/" component={HomeComp}/>
+                        <Route  path="/Yeptest" component={Yeptest}/>
 
+                        <Route  path="/pagenotfound" component={pagenotfound}/>
+
+                        <Route default path="/HomeComp" component={HomeComp}/>
 
                     </Switch>
                 </div>

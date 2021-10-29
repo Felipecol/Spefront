@@ -18,6 +18,11 @@ import Button from "react-bootstrap/Button";
 import ProtectionComp from "./ProtectionComp";
 AOS.init();
 
+
+function redir() {
+    window.location.href="http://localhost:3000";
+}
+
 class PlancheComp extends Component {
     render() {
         return (
@@ -219,6 +224,7 @@ class PlancheComp extends Component {
                     </div>
                 </div>
                 <hr/>
+                <input type="submit" value="Home" className="form-control btn btn-primary"  onClick={redir} />
             </div>
         );
     }
