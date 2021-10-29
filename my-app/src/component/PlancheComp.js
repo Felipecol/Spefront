@@ -13,15 +13,9 @@ import skateboard7 from '../assets/skateboard7.jpeg';
 import skateboard8 from '../assets/skateboard8.jpeg';
 import skateboard9 from '../assets/skateboard9.jpeg';
 import {Card, Col, Row} from "react-bootstrap";
-import skater3 from "../assets/skater3.png";
-import Button from "react-bootstrap/Button";
-import ProtectionComp from "./ProtectionComp";
+
 AOS.init();
 
-
-function redir() {
-    window.location.href="http://localhost:3000";
-}
 
 class PlancheComp extends Component {
     render() {
@@ -224,7 +218,6 @@ class PlancheComp extends Component {
                     </div>
                 </div>
                 <hr/>
-                <input type="submit" value="Home" className="form-control btn btn-primary"  onClick={redir} />
             </div>
         );
     }
