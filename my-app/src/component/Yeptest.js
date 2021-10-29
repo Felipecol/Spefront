@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 const Yeptest = () =>   {
 
     function redir() {
-        window.location.href="http://localhost:3000/HomeComp";
+        window.location.href="http://skatalog.netlify.app/HomeComp";
     }
 
 
