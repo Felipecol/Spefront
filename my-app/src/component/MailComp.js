@@ -28,6 +28,7 @@ const MailComp = () => {
 
         return (
             <div className="container">
+                <div>
                 <h1 className="tittre">Contactez-nous</h1>
                 <form className="mailer" onSubmit={sendEmail}>
 
@@ -43,7 +44,7 @@ const MailComp = () => {
                     <input type="submit" value="Envoyer" className="form-control btn btn-primary"   />
 
                 </form>
-
+                </div>
                 <hr/>
 
             </div>
