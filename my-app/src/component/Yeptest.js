@@ -10,7 +10,12 @@ const Yeptest = () =>   {
 
 
         return (
-            <div className="container" >
+            <div className="container"
+                 data-aos="fade-up"
+                 data-aos-duration="1000"
+                 data-aos-delay="25"
+                 data-aos-easing="ease-in-out-cubic"
+            >
                 <div className="container2">
                 <h1>Nous avons bien reçu votre message !</h1>
 
