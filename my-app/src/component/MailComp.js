@@ -10,7 +10,7 @@ import {
 
 
 
-export default function MailComp(){
+function MailComp(){
 
 
         return (
@@ -49,4 +49,6 @@ export default function MailComp(){
         );
 
 }
+
+export default MailComp;
 
