@@ -50,6 +50,3 @@ export default function MailComp(){
 
 }
 
-
-
-export default MailComp;
