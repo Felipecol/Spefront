@@ -7,7 +7,7 @@ export default function MailComp(){
         <div className="container">
             <div className="container2">
                 <h1>Contactez-nous</h1>
-                <form name="contact" method="post" action="/Yeptest/">
+                <form name="contact" method="post">
                     <input type="hidden" name="form-name" value="contact" />
                     <p>
                         <label htmlFor="name" class="card-title">Name</label> <br />
@@ -22,7 +22,7 @@ export default function MailComp(){
                         <textarea id="message" name="message" required class="form-control" ></textarea>
                     </p>
 
-                       <button type="submit" class="btn btn-light send" >Envoie</button>
+                       <button type="submit" class="btn btn-light send" action="/Yeptest/" >Envoie</button>
 
                 </form>
             </div>
