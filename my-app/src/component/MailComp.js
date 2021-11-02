@@ -1,39 +1,34 @@
 import React, {Component} from 'react';
 import "./MailComp.css";
-import emailjs from "emailjs-com";
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link, Redirect
-} from "react-router-dom";
+function redir() {
+    window.location.href="http://localhost:3000/Yeptest";
+}
 
 export default function MailComp(){
+    return (
+        <div className="container">
+            <div className="container2">
+                <h1>Contactez-nous</h1>
+                <form name="contact" method="post" >
+                    <input type="hidden" name="form-name" value="contact" />
+                    <p>
+                        <label htmlFor="name" class="card-title">Name</label> <br />
+                        <input type="text" id="name" name="name" required class="form-control" />
+                    </p>
+                    <p>
+                        <label htmlFor="email" class="card-title">Email</label> <br />
+                        <input type="email" id="email" name="email" required class="form-control"/>
+                    </p>
+                    <p>
+                        <label htmlFor="message" class="card-title">Message</label> <br />
+                        <textarea id="message" name="message" required class="form-control" ></textarea>
+                    </p>
 
+                       <button type="submit" class="btn btn-light send" onSubmit={redir} >Envoie</button>
 
-        return (
-
-
-<div className="container2">
-    <form name="contact" method="post">
-        <input type="hidden" name="form-name" value="contact" />
-        <p>
-            <label htmlFor="name">Name</label> <br />
-            <input type="text" id="name" name="name" required />
-        </p>
-        <p>
-            <label htmlFor="email">Email</label> <br />
-            <input type="email" id="email" name="email" required />
-        </p>
-        <p>
-            <label htmlFor="message">Message</label> <br />
-            <textarea id="message" name="message" required></textarea>
-        </p>
-        <p>
-            <input type="submit" value="Submit message" />
-        </p>
-    </form>
-</div>
+                </form>
+            </div>
+        </div>
 
         );
 
