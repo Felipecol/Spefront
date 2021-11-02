@@ -5,7 +5,7 @@ import './Yeptest.css'
 export default function Yeptest(){
 
     function redir() {
-        window.location.href="http://localhost:3000/";
+        window.location.href="https://skatalog.netlify.app/";
     }
 
 
