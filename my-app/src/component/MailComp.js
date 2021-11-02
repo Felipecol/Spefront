@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 import "./MailComp.css";
-function redir() {
-    window.location.href="http://localhost:3000/Yeptest";
-}
+
 
 export default function MailComp(){
     return (
@@ -24,7 +22,7 @@ export default function MailComp(){
                         <textarea id="message" name="message" required class="form-control" ></textarea>
                     </p>
 
-                       <button type="submit" class="btn btn-light send" onSubmit={redir} >Envoie</button>
+                       <button type="submit" class="btn btn-light send" >Envoie</button>
 
                 </form>
             </div>
