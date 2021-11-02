@@ -9,7 +9,6 @@ import {
     Link, Redirect
 } from "react-router-dom";
 import PlancheComp from "./PlancheComp";
-import ProtectionComp from "./ProtectionComp";
 import RouesComp from "./RouesComp";
 import SkateComp from "./SkateComp";
 import TrucksComp from "./TrucksComp";
