@@ -10,7 +10,7 @@ import {
 
 
 
-const MailComp = () => {
+export default function MailComp(){
 
 
         return (
