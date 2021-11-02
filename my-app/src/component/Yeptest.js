@@ -18,9 +18,7 @@ export default function Yeptest(){
             >
                 <div className="container2">
                 <h1>Nous avons bien reçu votre message !</h1>
-
                 <input type="submit" value="Home" className="form-control btn btn-primary"  onClick={redir} />
-
                 </div>
             </div>
         );
