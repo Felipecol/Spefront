@@ -81,11 +81,12 @@ function App() {
 
                     <Route exact path="/" component={HomeComp}/>
                     <Route path="/*" component={pagenotfound}/>
-
+                    <MailComp/>
 
                 </Switch>
             </div>
         </Router>
+
         <FooterComp/>
     </div>
   );
