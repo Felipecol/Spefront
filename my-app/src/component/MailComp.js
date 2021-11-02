@@ -35,7 +35,7 @@ const MailComp = () => {
             >
                 <div className="container2">
                 <h1 className="tittre">Contactez-nous</h1>
-                <form className="mailer" onSubmit={sendEmail} data-netlify="true" >
+                <form name="contactv1" className="mailer" onSubmit={sendEmail} data-netlify="true" >
 
                     <label>Nom</label>
                     <input type="text" name="name" className="form-control"/>
