@@ -56,6 +56,8 @@ function App() {
                             <Nav.Link as={Link} to={"/SkateComp"}>Skateboard complet</Nav.Link>
                             <Nav.Link as={Link} to={"/TrucksComp"}>Trucks</Nav.Link>
                             <Nav.Link as={Link} to={"/MailComp"}>Contact</Nav.Link>
+                            <Nav.Link as={Link} to={"/Yeptest"} style={{display:"none"}}>Yeptest</Nav.Link>
+
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
