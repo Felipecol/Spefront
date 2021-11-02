@@ -14,28 +14,29 @@ function MailComp(){
         return (
 
 
-                <div className="container2">
+                <div className=" container2">
                 <h1 className="tittre">Contactez-nous</h1>
-                <form
-                    className="mailer"
-                    name="contactv1"
-                    method="post"
-                    data-netlify="true"
-                    onSubmit="submit"
-                >
+                    <form name="contact" method="POST" data-netlify="true">
+                        <p>
+                            <label>Your Name: <input type="text" name="name" /></label>
+                        </p>
+                        <p>
+                            <label>Your Email: <input type="email" name="email" /></label>
+                        </p>
+                        <p>
+                            <label>Your Role: <select name="role[]" multiple>
+                                <option value="leader">Leader</option>
+                                <option value="follower">Follower</option>
+                            </select></label>
+                        </p>
+                        <p>
+                            <label>Message: <textarea name="message"></textarea></label>
+                        </p>
+                        <p>
+                            <button type="submit">Send</button>
+                        </p>
+                    </form>
 
-                    <label>Nom</label>
-                    <input type="text" name="first-name" className="form-control"/>
-
-                    <label htmlFor="email" className="titreMail">Email</label>
-                    <input id="email" type="email" name="email" className="form-control"/>
-
-                    <label className="titreMail">Message</label>
-                    <textarea name="comments" rows="4" className="form-control"/>
-
-                    <input type="submit" value="Envoyer" className="form-control btn btn-primary" />
-
-                </form>
                 </div>
 
         );
