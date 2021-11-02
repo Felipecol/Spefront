@@ -15,7 +15,7 @@ import TrucksComp from "./TrucksComp";
 import HomeComp from "./HomeComp";
 import pagenotfound from "./pagenotfound";
 import MailComp from "./MailComp";
-import Yeptest from "./Yeptest";
+import Yeptest from "../Yeptest";
 
 function redir() {
     window.location.href="https://skatalog.netlify.app/";
@@ -74,6 +74,8 @@ class navbar extends Component {
                         <Route path="/SkateComp" component={SkateComp}/>
 
                         <Route path="/TrucksComp" component={TrucksComp}/>
+                        <Route path="/Yeptest" component={Yeptest}/>
+
 
                         <Route exact path="/" component={HomeComp}/>
                         <Route path="/*" component={pagenotfound}/>

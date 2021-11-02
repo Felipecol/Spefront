@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './Yeptest.css'
+import './component/Yeptest.css'
 
 
 export default function Yeptest(){
