@@ -20,7 +20,7 @@ function MailComp(){
                     className="mailer"
                     name="contactv1"
                     method="post"
-                    data-netlify="true"
+                    data-netlify=true
                     onSubmit="submit"
                 >
 
