@@ -29,6 +29,7 @@ const MailComp = () => {
                     method="post"
                     data-netlify="true"
                     onSubmit="submit"
+                    netlifly
                 >
 
                     <label>Nom</label>
