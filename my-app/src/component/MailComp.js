@@ -21,9 +21,11 @@ const MailComp = () => {
             e.target,
             "user_LdSr4YC5kDv1yfiZ5MLod").then(res=>{
                 console.log(res);
-            window.location.href="https://skatalog.netlify.app/Yeptest";
-        }).catch(err=> console.log(err));
 
+        }).catch(err=> console.log(err));
+    }
+    function redir() {
+        window.location.href="https://skatalog.netlify.app/Yeptest";
     }
 
         return (
@@ -42,7 +44,7 @@ const MailComp = () => {
                     <label className="titreMail">Message</label>
                     <textarea name="Message" rows="4" className="form-control"/>
 
-                    <input type="submit" value="Envoyer" className="form-control btn btn-primary" />
+                    <input type="submit" value="Envoyer" className="form-control btn btn-primary" onClick={redir}/>
 
                 </form>
                 </div>
