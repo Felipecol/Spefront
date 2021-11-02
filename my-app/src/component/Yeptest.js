@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './Yeptest.css'
 
 
-const Yeptest = () =>   {
+export default function Yeptest(){
 
     function redir() {
         window.location.href="http://localhost:3000/";
@@ -26,6 +26,3 @@ const Yeptest = () =>   {
         );
 
 }
-
-
-export default Yeptest;
