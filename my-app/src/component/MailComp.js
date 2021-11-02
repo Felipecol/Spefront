@@ -8,20 +8,13 @@ import {
     Link, Redirect
 } from "react-router-dom";
 
-
-
 function MailComp(){
 
 
         return (
 
-            <div className="container"
-                 data-aos="fade-up"
-                 data-aos-duration="1000"
-                 data-aos-delay="25"
-                 data-aos-easing="ease-in-out-cubic"
-            >
-                <div className="container2">
+
+                <div className="container">
                 <h1 className="tittre">Contactez-nous</h1>
                 <form
                     className="mailer"
@@ -29,7 +22,6 @@ function MailComp(){
                     method="post"
                     data-netlify="true"
                     onSubmit="submit"
-                    netlifly
                 >
 
                     <label>Nom</label>
@@ -45,7 +37,7 @@ function MailComp(){
 
                 </form>
                 </div>
-            </div>
+
         );
 
 }
