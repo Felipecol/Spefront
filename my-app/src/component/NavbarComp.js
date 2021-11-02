@@ -55,6 +55,7 @@ class navbar extends Component {
                                 <Nav.Link as={Link} to={"/SkateComp"}>Skateboard complet</Nav.Link>
                                 <Nav.Link as={Link} to={"/TrucksComp"}>Trucks</Nav.Link>
                                 <Nav.Link as={Link} to={"/MailComp"}>Contact</Nav.Link>
+                                <Nav.Link as={Link} to={"/Yeptest"} style={{display:"none"}}>Yeptest</Nav.Link>
 
                             </Nav>
                         </Navbar.Collapse>
@@ -74,6 +75,7 @@ class navbar extends Component {
                         <Route path="/SkateComp" component={SkateComp}/>
 
                         <Route path="/TrucksComp" component={TrucksComp}/>
+                        <Route path="/Yeptest" component={Yeptest}/>
 
                         <Route exact path="/" component={HomeComp}/>
                         <Route path="/*" component={pagenotfound}/>
