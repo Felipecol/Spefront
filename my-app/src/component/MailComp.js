@@ -14,8 +14,7 @@ function MailComp(){
         return (
 
 
-                <div className=" container2">
-                <h1 className="tittre">Contactez-nous</h1>
+
                     <form name="contact" method="POST" data-netlify="true">
                         <p>
                             <label>Your Name: <input type="text" name="name" /></label>
@@ -37,7 +36,6 @@ function MailComp(){
                         </p>
                     </form>
 
-                </div>
 
         );
 
