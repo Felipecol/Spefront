@@ -28,7 +28,7 @@ h2{
         font-size: 30px;
     }
     p{
-        font-size: 10px;
+        font-size: 20px;
         margin: 0;
     }
     .eventpage{
@@ -38,6 +38,22 @@ h2{
     .card-title {
         margin-bottom: 0;
     }
+    #root > div > div:nth-child(2) > div > div.carousel.slide > div.carousel-inner > div:nth-child(1) > div > p{
+        font-size: 15px;
+    }
+    #root > div > div:nth-child(2) > div > div.carousel.slide > div.carousel-inner > div:nth-child(2) > div > p{
+        font-size: 15px;
+    }
+    #root > div > div:nth-child(2) > div > div.carousel.slide > div.carousel-inner > div:nth-child(3) > div > p{
+        font-size: 15px;
+    }
+    #root > div > div:nth-child(2) > div > div:nth-child(3) > div.g-4.row.row-cols-md-2.row-cols-1 > div.col.aos-init.aos-animate > div > div > p{
+        font-size: 15px;
+    }
+    #root > div > div:nth-child(2) > div > div:nth-child(3) > div.eventpage.row > div:nth-child(1) > div > p{
+        font-size: 15px;
+    }
+
 }
 #root > div > div:nth-child(1) > nav{
     z-index: 4;

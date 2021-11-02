@@ -18,7 +18,7 @@ import pagenotfound from "./component/pagenotfound";
 
 
 function redir() {
-    window.location.href="http://skatalog.netlify.app";
+    window.location.href="http://localhost:3000/";
 }
 
 function App() {

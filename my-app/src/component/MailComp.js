@@ -21,7 +21,7 @@ const MailComp = () => {
             e.target,
             "user_LdSr4YC5kDv1yfiZ5MLod").then(res=>{
                 console.log(res);
-            window.location.href="http://skatalog.netlify.app/Yeptest";
+            window.location.href="Yeptest";
         }).catch(err=> console.log(err));
 
     }
@@ -29,7 +29,7 @@ const MailComp = () => {
         return (
 
             <div className="container">
-                <div>
+                <div className="container2">
                 <h1 className="tittre">Contactez-nous</h1>
                 <form className="mailer" onSubmit={sendEmail} >
 
@@ -46,8 +46,6 @@ const MailComp = () => {
 
                 </form>
                 </div>
-                <hr/>
-
             </div>
         );
 
