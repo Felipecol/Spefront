@@ -15,6 +15,7 @@ import TrucksComp from "./TrucksComp";
 import HomeComp from "./HomeComp";
 import pagenotfound from "./pagenotfound";
 import MailComp from "./MailComp";
+import Yeptest from "./Yeptest";
 
 function redir() {
     window.location.href="https://skatalog.netlify.app/";
@@ -54,7 +55,6 @@ class navbar extends Component {
                                 <Nav.Link as={Link} to={"/SkateComp"}>Skateboard complet</Nav.Link>
                                 <Nav.Link as={Link} to={"/TrucksComp"}>Trucks</Nav.Link>
                                 <Nav.Link as={Link} to={"/MailComp"}>Contact</Nav.Link>
-
 
                             </Nav>
                         </Navbar.Collapse>

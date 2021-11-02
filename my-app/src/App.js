@@ -6,9 +6,6 @@ import NavbarComp from "./component/NavbarComp";
 
 
 
-function redir() {
-    window.location.href="https://skatalog.netlify.app/";
-}
 
 function App() {
   return (
