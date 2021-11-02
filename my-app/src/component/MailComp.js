@@ -14,7 +14,7 @@ function MailComp(){
         return (
 
 
-                <div className="container">
+                <div className="container2">
                 <h1 className="tittre">Contactez-nous</h1>
                 <form
                     className="mailer"
