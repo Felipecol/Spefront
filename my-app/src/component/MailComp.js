@@ -15,7 +15,8 @@ export default function MailComp(){
 
 
 <div className="container2">
-    <form name="contact1" method="post" data-netlify="true">
+    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" >
+
         <p>
             <label htmlFor="name">Name</label> <br />
             <input type="text" id="name" name="name" required />
