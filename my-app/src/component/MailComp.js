@@ -21,7 +21,7 @@ const MailComp = () => {
             e.target,
             "user_LdSr4YC5kDv1yfiZ5MLod").then(res=>{
                 console.log(res);
-            window.location.href="https://skatalog.netlify.app/Yeptest";
+
         }).catch(err=> console.log(err));
     }
 
