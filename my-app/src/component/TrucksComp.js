@@ -12,7 +12,6 @@ import trucks9 from "../assets/trucks9.jpeg";
 import './TrucksComp.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Button from "react-bootstrap/Button";
 AOS.init();
 
 class TrucksComp extends Component {
